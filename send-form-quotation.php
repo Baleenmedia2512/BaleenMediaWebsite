@@ -75,7 +75,7 @@ if(isset($_POST['email'])) {
      
     /* EDIT THE 2 LINES BELOW AS REQUIRED
 	Site name: nourenergy.com.sa  */
-	$email_to = "prassananatarajan@gmail.com";
+	$email_to = "leenah.grace@baleenmedia.com";
     $email_to = "kiruba@baleenmedia.com";
 
     $email_subject = "Message from Baleen Media Website Quotation form";

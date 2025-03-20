@@ -2,8 +2,7 @@
 .footer-top-content .mc4wp-form .mc4wp-form-fields button,
 .contact-form-btn,
 .contact-info-bg:after,
-#backtotop i,
-
+.service-item .service-icon a,
 .service-item-2:hover .service-icon a,
 .section-title .title:after,
 .section-title .title:before,
@@ -46,9 +45,9 @@ input[type="submit"],
 .request-form input[type=submit],
 .request-form h2:after,
 .profile-card span {
-    background: #063b57;
-    /* background: -webkit-linear-gradient(to right,#f6efdd,#063b57);
-    background: linear-gradient(to right, #f6efdd,#063b57); */
+    background: #e25b93;
+    background: -webkit-linear-gradient(to right, #2c97d1, #e25b93);
+    background: linear-gradient(to right, #2c97d1, #e25b93);
 
 }
 
@@ -91,8 +90,10 @@ blockquote::before,
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: #063b57;
-} 
+    background-image: #e25b93;
+    background-image: -webkit-linear-gradient(to right, #2c97d1, #e25b93);
+    background-image: linear-gradient(to right, #2c97d1, #e25b93);
+}
 
 .service-tabs .tab-btns .tab-btn,
 .service-tabs .tab-content .content-box,
@@ -104,7 +105,7 @@ blockquote,
 .appointment textarea,
 .work-process-item span,
 .pricing-item-border {
-    border-color: #063b57 !important;
+    border-color: #e25b93 !important;
 }
 
 .navbar-toggler-icon {
@@ -116,8 +117,9 @@ IF SCREEN SIZE LESS THAN 769px WIDE
 
 @media screen and (max-width: 768px) {
     .navbar .menu-item > .active {
-        background: #063b57;
-      
+        background: #e25b93;
+        background: -webkit-linear-gradient(to right, #2c97d1, #e25b93);
+        background: linear-gradient(to right, #2c97d1, #e25b93);
     }
 }
 
@@ -127,17 +129,17 @@ IF SCREEN SIZE LESS THAN 769px WIDE
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: #063b57;
-    /* background: -webkit-linear-gradient(to right,#f6efdd,#063b57);
-    background: linear-gradient(to right, #f6efdd,#063b57); */
+    background-image: #e25b93;
+    background-image: -webkit-linear-gradient(to right, #2c97d1, #e25b93);
+    background-image: linear-gradient(to right, #2c97d1, #e25b93);
 }
 
 .about-content ul li i,
 .about-border:after,
 .about-border:before {
     background: #e25b93;
-    background: -webkit-linear-gradient(to right,#f6efdd,#063b57);
-    background: linear-gradient(to right, #f6efdd,#063b57);
+    background: -webkit-linear-gradient(to right, #2c97d1, #e25b93);
+    background: linear-gradient(to right, #2c97d1, #e25b93);
 }
 
 /*Squire border*/
@@ -148,8 +150,7 @@ IF SCREEN SIZE LESS THAN 769px WIDE
 
 /*circle border*/
 .class-examole{
-   
-    background: linear-gradient(to right, #f6efdd,#063b57);
+    background: linear-gradient(to right, #2c97d1, #e25b93);
     border-radius: 50%;
     display: inline-block;
 }

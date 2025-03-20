@@ -105,46 +105,46 @@ select.form-control:not([size]):not([multiple]){
 			</div>
             <div class="col-md-4 contact-form">
                 					
-                        <form id="contactform_new" method="post" action="send-form-quotation.php" class="form-flex pb-5">
-                        <h2 style="font-size: 30px; font-family:Montserrat;  padding:50px 0px;">Quotation form</h2>
-                            <div class="col-sm-12 form-group">
-                                <input type="text" id="name" name="name" onchange="Allowname()" class="form-control  " placeholder="Your Name*" required="yes">
-                            </div>
-                            <div class="col-sm-12 form-group">
-                                <input type="text" id="email" name="email" onchange="Allowemail()" class="form-control " placeholder="Your Mail (Optional)"required="yes" >
-                            </div>
-                            <div class="col-sm-12 form-group">
-                            <input type="tel" id="mobile" name="mobile" class="form-control " 
-            placeholder="Your Mobile*" required="yes" pattern="^0[0-9]{10}$|^[1-9][0-9]{9}$"
-            title="Mobile number should start with '0' and be 11 digits long, or without '0' and be 10 digits long.">
-                            </div>
-                            <div class="col-sm-12 form-group">
-                                <select class="form-control" required = "yes" name="service" >								
-                                    <option>Select Service</option>								
-                                    <option>Newspaper Advertisement</option>
-                                    <option>Paper Insert</option>								
-                                    <option>Bus Advertisement</option>
-                                    <option>Noparking Board</option>
-                                    <option>Television Advertisement</option>								
-                                    <option>Radio Advertisement</option>																
-                                    <option>Hoardings</option>
-                                    <option>Lamppost Ads</option>	
-                                    <option>Traffic alert board</option>	
-                                    <option>Auto Rickshaw Ads</option>	
-                                    <option>Appartment screen Ads</option>
-                                    <option>Bus Shelter</option>	
-                                    <option>Phamplet distribution</option>	
-                                    <option>Software products development</option>
-                                    <option>Website development</option>
-                                    <option>Seo services</option>
-                                    <option>SMS Campaigns</option>																					
+					<form id="contactform_new" method="post" action="send-form-quotation.php" class="form-flex pb-5">
+                    <h2 style="font-size: 30px; font-family:Montserrat;  padding:50px 0px;">Quotation form</h2>
+						<div class="col-sm-12 form-group">
+							<input type="text" id="name" name="name" onchange="Allowname()" class="form-control  " placeholder="Your Name*" required="yes">
+						</div>
+						<div class="col-sm-12 form-group">
+							<input type="text" id="email" name="email" onchange="Allowemail()" class="form-control " placeholder="Your Mail* "required="yes" >
+						</div>
+						<div class="col-sm-12 form-group">
+                        <input type="tel" id="mobile" name="mobile" class="form-control " 
+           placeholder="Your Mobile*" required="yes" pattern="^0[0-9]{10}$|^[1-9][0-9]{9}$"
+           title="Mobile number should start with '0' and be 11 digits long, or without '0' and be 10 digits long.">
+						</div>
+						<div class="col-sm-12 form-group">
+							<select class="form-control" required = "yes" name="service" >								
+								<option>Select Service</option>								
+								<option>Newspaper Advertisement</option>
+								<option>Paper Insert</option>								
+								<option>Bus Advertisement</option>
+								<option>Noparking Board</option>
+								<option>Television Advertisement</option>								
+								<option>Radio Advertisement</option>																
+								<option>Hoardings</option>
+                                <option>Lamppost Ads</option>	
+                                <option>Traffic alert board</option>	
+                                <option>Auto Rickshaw Ads</option>	
+                                <option>Appartment screen Ads</option>
+                                <option>Bus Shelter</option>	
+                                <option>Phamplet distribution</option>	
+                                <option>Software products development</option>
+                                <option>Website development</option>
+                                <option>Seo services</option>
+                                <option>SMS Campaigns</option>																					
 
-                                    <!--<option>Digital Marketing</option>-->
-                                </select>
-                            </div>
-                            <button type="submit" name="submit" class="contact-form-btn"> Submit </button>
-                            
-                        </form>
+								<!--<option>Digital Marketing</option>-->
+							</select>
+						</div>
+                        <button type="submit" name="submit" class="contact-form-btn"> Submit </button>
+						
+					</form>
                 
             </div>
 			<div class="col-sm-4">

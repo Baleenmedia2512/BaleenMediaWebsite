@@ -176,7 +176,7 @@ img.mfp-img {
 }
 
 html {
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -273,12 +273,15 @@ sup {
 }
 
 a {
-    color: #ffffff;
+    color: #f15197;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
-
+a:hover {
+    color: #0056b3;
+    text-decoration: underline
+}
 
 a:not([href]):not([tabindex]),
 a:not([href]):not([tabindex]):focus,
@@ -336,7 +339,10 @@ button {
     border-radius: 0
 }
 
-
+button:focus {
+    outline: dotted 1px;
+    outline: -webkit-focus-ring-color auto 5px
+}
 
 button,
 input,

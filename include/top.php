@@ -4,14 +4,14 @@
 	<!-- <-----fontAwesome----------->
 <script src="https://kit.fontawesome.com/61526c3cb9.js" crossorigin="anonymous"></script>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-2C51966P55');
-</script>
+</script> -->
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -73,6 +73,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Baleenmedia is one of the best Advertising agencies in Chennai.We offer the best advertising services for your business needs. Contact us Now !">
     <meta name="author" content="Baleen Media">
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P7F32DSR');
+  </script>
+  <!-- End Google Tag Manager -->
     <!-- Site Title-->
     <title> Best Advertising Company in Chennai | Baleen Media
 </title>
@@ -625,7 +634,18 @@
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 	/* -----------------------------------------------xxxx----------------------- */
-		
+		.contactinfo{
+      padding: 10px;
+      background-color: #fffaed;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+    }
+    .contact-icon{
+      color:black;
+      font-size: 20px;
+      
+    }
 </style>
 <!-- ---------------------------------js scripts -->
 <script>
@@ -681,7 +701,10 @@ window.onscroll = function() {
 
 <body data-spy="scroll" data-target="navbar-default" data-offset="50">
     <!--=======PRELOADER=======-->
-	
+    <!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7F32DSR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
     <div id="main-preloader" class=" main-preloader semi-dark-background">
 	
         <div class=" main-preloader-inner center">
@@ -706,7 +729,8 @@ window.onscroll = function() {
     </div>
 	
    
-	<nav class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 sticky-top " style=" background-color:#F1EAFF;" id="navbar">
+	<nav class="sticky-top " style="display: flex; flex-direction: column;" id="navbar">
+    <div class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 "style=" background-color:#F1EAFF;">
 	<div class="container ">
     <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo.png" alt="ConsultYou"></a>
             <button class="navbar-toggler float-right" type="button"  onclick="menuFunction()"  ><span class="navbar-toggler-icon"></span>
@@ -726,15 +750,23 @@ window.onscroll = function() {
                     <!-- Dropdown -->
                     <li class="menu-item dropdown" >                         
 					<a class="nav-link dropdown-toggle" href="#" onclick="myFunction()" >Services</a>
-                        <div class="dropdown-menu" id="service">
-                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ad</a>
-							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>
+          <div class="dropdown-menu" id="service">
+                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ads</a>
+                            <a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ads</a>
+                            <a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ads</a>
                             <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Ads</a>
-							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item ">NoParking Board</a>							
-							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ad</a>
-							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ad</a>													
-							<a href="auto-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Rickshaw Ads</a>
-                            <a href="hoardings.php" class="dropdown-item ">Hoardings</a>	
+                            <a href="mobilevan.php" class="dropdown-item ">Mobile Van Brandings</a>
+                            <a href="busshelter.php" class="dropdown-item ">Bus shelter Ads</a>	
+                            <a href="hoardings.php" class="dropdown-item ">Hoardings</a>
+                            <a href="" class="dropdown-item ">Theatre Ads</a>	
+                            <div style="height: 1px; background-color:rgb(0, 0, 0); "></div>
+                            <a href="trafficalert.php" class="dropdown-item ">Traffic Alert</a>
+							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>  
+							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item ">NoParking Board</a>																			
+							<a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Rickshaw Ads</a>
+                            <a href="appartment.php" class="dropdown-item ">Appartment Screening</a>	
+                            					
+                        </div>
                     </li>
                     <!-- Dropdown -->
                     <li class="menu-item">
@@ -749,4 +781,15 @@ window.onscroll = function() {
                 </ul>
             </div>
             </div>
+            </div> 
+            <div class="contactinfo">
+              
+            <a href="tel:+919566031113" class="contact-icon">
+    <i class="fa fa-phone"></i>+91 9566031113</a>
+
+    <a href="https://wa.me/919566031113" target="_blank" class="contact-icon">
+    <i class="fa fa-whatsapp"></i> 9566031113</a>
+
+            </div>
+            
     </nav>

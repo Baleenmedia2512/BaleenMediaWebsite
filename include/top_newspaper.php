@@ -1,41 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
- <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2C51966P55');
-</script>
-    <script type="application/ld+json">
+<!-- Meta Tags -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="title" content="Effective Newspaper Advertising in Chennai | Top Newspaper Ad Agency">
+<meta name="keywords" content="Newspaper advertising in Chennai, Chennai newspaper ads, best newspaper advertising agency Chennai, print advertising Chennai, Tamil Nadu newspaper ads">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Increase brand visibility and reach a wide audience with effective newspaper advertising in Chennai. Partner with the best newspaper ad agency in Chennai to showcase your brand in leading newspapers across Tamil Nadu.">
+<meta name="author" content="Baleen Media">
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P7F32DSR');
+  </script>
+  <!-- End Google Tag Manager -->
+<!-- Site Title-->
+<title>Best Newspaper Advertising in Chennai | Baleen Media</title>
+	<!-- <-----fontAwesome----------->
+<script src="https://kit.fontawesome.com/61526c3cb9.js" crossorigin="anonymous"></script>
+  
+<script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
-  "@type": "WebSite",
-  "name": "Newspaper & Magazine Advertising Agency in Chennai",
-  "url": "https://www.baleenmedia.com/newspaper-advertisement-agency-in-chennai.php",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://www.baleenmedia.com/newspaper-advertisement-agency-in-chennai.php{search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Newspaper Advertising",
+  "provider": {
+    "@type": "Organization",
+    "name": "Baleen Media",
+    "url": "https://baleenmedia.com/newspaper-advertising.php",
+    "logo": "https://www.baleenmedia.com/assets/images/thumbnail.png", // Replace with actual logo URL
+    "sameAs": [
+      "https://www.facebook.com/baleenmedia",
+      "https://x.com/Baleenmedia2015",
+      "https://www.instagram.com/baleen.media/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "No.32, Kasthuribai Nagar, 3rd Cross Street",
+      "addressLocality": "Adyar",
+      "addressRegion": "TN",
+      "postalCode": "600020",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9566031113",
+      "contactType": "Customer Service",
+      "areaServed": "IN",
+      "availableLanguage": "English"
+    }
+  },
+  "areaServed": "Chennai",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "INR",
+    "price": "[Advertising Cost]", // Replace with actual price
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Newspaper Advertising",
+      "description": "Print advertisements in leading newspapers in Chennai to target a wide audience across various demographics, including both local and regional readers."
+    }
+  },
+  "description": "Professional newspaper advertising services in Chennai, offering wide coverage across major local and national newspapers. Ideal for businesses looking to reach a broad audience through print media."
 }
 </script>
 
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Newspaper Advertisement in Chennai: Newspaper Ad Agency">
-     <meta name="keywords" content="newspaper advertisement in chennai">
-    <meta name="description" content="Choose Baleen Media for reliable and result-driven newspaper advertising in Chennai. Contact us today to learn how our expertise can elevate your brand.">
-    <meta name="author" content="Baleen Media">
-    <!-- Site Title-->
-    <title> Newspaper Advertisement in Chennai: Newspaper Ad Agency</title>
-    <link rel="canonical" href="https://baleenmedia.com/newspaper-advertisement-agency-in-chennai.php" />
+    
+   
+<link rel="canonical" href="https://baleenmedia.com/newspaper-advertisement-agency-in-chennai.php" />
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/images/thumbnail.png" type="image/x-icon">
     <link rel="icon" href="assets/images/thumbnail.png" type="image/x-icon">
@@ -54,13 +90,17 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- Color CSS -->
     <link href="assets/css/colors/color.css" rel="stylesheet">
+	<link href="assets/css/index.css" rel="stylesheet">
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<style>
+		
 		h2{
 		  text-align:center;
 		  padding: 20px;
@@ -217,15 +257,19 @@
 			font-family: 'BathYork';
 			src: url('assets/fonts/BathYork-1j9qj.otf') format('opentype');
 			font-weight: normal;
-            font-style: normal;
+            font-style: normal; 
 		}
 #bs4navbar .menu-item .dropdown-menu a{
-	background-color: #fffaed;
-    color: #212121;
+  background-color: #fffaed;
+  color: #212121;
 	}
 	#bs4navbar .menu-item .dropdown-menu a:hover{
-		background-color:black;
+    background-color:black;
 		color:whitesmoke;
+	}
+	.show{
+		display: flex;
+		flex-direction: column;
 	}
 	/* ---------------------------------------------------------------loadings */
 	.main-preloader-inner{
@@ -636,7 +680,10 @@ window.onscroll = function() {
 
 <body data-spy="scroll" data-target="navbar-default" data-offset="50">
     <!--=======PRELOADER=======-->
-	
+    <!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7F32DSR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
     <div id="main-preloader" class=" main-preloader semi-dark-background">
 	
         <div class=" main-preloader-inner center">
@@ -682,13 +729,20 @@ window.onscroll = function() {
                     <li class="menu-item dropdown" >                         
 						<a class="nav-link dropdown-toggle" href="#" onclick="myFunction()" >Services</a>
                         <div class="dropdown-menu" id="service">
-                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ad</a>
-							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>
-                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Back Ad</a>
-							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item ">NoParking Board</a>							
-							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ad</a>
-							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ad</a>													
-							<a href="auto-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Back Ads</a>							
+                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ads</a>
+                            <a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ads</a>
+                            <a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ads</a>
+                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Ads</a>
+                            <a href="mobilevan.php" class="dropdown-item ">Mobile Van Brandings</a>
+                            <a href="busshelter.php" class="dropdown-item ">Bus shelter Ads</a>	
+                            <a href="hoardings.php" class="dropdown-item ">Hoardings</a>
+                            <div style="height: 1px; background-color:rgb(0, 0, 0); "></div>
+                            <a href="trafficalert.php" class="dropdown-item ">Traffic Alert</a>
+							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>  
+							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item ">NoParking Board</a>																			
+							<a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Rickshaw Ads</a>
+                            <a href="appartment.php" class="dropdown-item ">Appartment Screening</a>	
+                            <a href="" class="dropdown-item ">Theatre Ads</a>						
                         </div>
                     </li>
                     <!-- Dropdown -->

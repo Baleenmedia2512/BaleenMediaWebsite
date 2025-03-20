@@ -22,7 +22,7 @@ include('include/top.php');
             font-family: "Gloria Hallelujah", cursive;
             font-weight: 700;
             font-style: italic;
-            font-size: 35.5px;
+            font-size:23px;
             text-wrap:nowrap;   
         }
         body .about-section_about .about-img{
@@ -32,6 +32,15 @@ include('include/top.php');
         body .vmt{
             margin-top:80px;
         }
+              body .wwd-card-in ul li {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+body .vertical-line{
+    height:170px;
+    border:1px solid gray;
+    margin:0px 20px; 
+}
         
 }
 .about-section_about {
@@ -156,12 +165,18 @@ include('include/top.php');
 
 /* Card Styling */
 .wwd-card2 {
-    background-color: #ffffff;
+    background-color: #d8cadf;
+    margin-right:5px;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: all 0.3s ease;
     border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .wwd-card2:hover {
@@ -191,8 +206,10 @@ include('include/top.php');
 
 .wwd-card-in {
     background-color: #d8cadf;
-    padding: 20px;
+    padding: 10px;
     border-top: 1px solid #e0e0e0;
+    
+
 }
 
 .wwd-card-in h4 {
@@ -211,7 +228,8 @@ include('include/top.php');
 
 .wwd-card-in ul li {
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .wwd-card-in ul li a {
@@ -221,7 +239,15 @@ include('include/top.php');
 }
 
 .wwd-card-in ul li a:hover {
-    color: #0056b3;
+    /* color: #0056b3; */
+}
+.pan{
+    display:flex;
+}
+.vertical-line{
+    height:105px;
+    border:1px solid gray;
+    margin:0px 15px; 
 }
 </style>
     <!-- breadcrumb -->
@@ -231,13 +257,13 @@ include('include/top.php');
                 
                 <div class="col-md-6 col-sm-12 ">
                     <h1>About Us</h1><br>
-                    <p class="justify">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p>
+                    <p class="justify">Baleen Media is an advertising Company. We help our Clients to publish Ads in Newspapers, TV, Radio, Mobile/Canter Vans, Buses, Auto Rickshaws, No Parking Boards, lamp posts, Apartment Screens & Hoardings.</p>
 
-                    <p class="justify"> Baleen Media is a Advertising Agency in Chennai that provides services like Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions. With more than 16 years of experience in the advertising industry, Baleen Media is known for creating bigger values and top-notch customer satisfaction through innovative ideas. 
-By providing its customers high quality services, Baleen Media is one of the best Ad Agencies in Chennai. Reaching the right audience, understanding customers’ needs and yielding high returns for every single penny paid, we provide services all over India.</p>
+                    <p class="justify"> Driven by the leaders with 20+ years of experience in the advertising industry. Baleen Media is known for creating bigger values and top-notch customer satisfaction through innovative ideas. Baleen Media customer base expands around 4000+ clients in last 9 years.  
+By providing its customers high quality services, Baleen Media is one of the best Ad Agencies in Chennai. This made the company to have 4.7/5 Google Rating. Reaching the right audience, understanding customers’ needs and yielding high returns for every single penny paid.</p>
                         <!-- Baleen Media is driven by 16+ years of valuable experience in Advertising Industry where the Focus being Top-class Customer Satisfaction & creating bigger values to them through Innovative ideas. Baleen Media began its Show on Jan'15 with an objective to provide High-quality Service with a great passion of Living the words what with committed to its Customers. Its Team possesses highly skilled professionals with a great Attitude on understanding Customer Needs and providing the best consulting service to reach their right target-audience. Baleen Media most values its Client's each single Money and promises the best to yield great returns for it. -->
 
-                   <span> Baleen Media extends its Service across all India Locations.</span><br>
+                   <span> Baleen Media renders its ATL Services across India Locations & BTL Services across Tamilnadu locations</span><br>
                 </div><br>
 
                 <div class="col-md-6 col-sm-12 ">
@@ -260,7 +286,7 @@ By providing its customers high quality services, Baleen Media is one of the bes
                 <div class="vmt-card">
                     <h1>Vision</h1>
                     <img src="assets/images/vision.png" alt="" class="img-fluid">
-                    <p>To Keep Every Advertiser Happy and Satisfied through Dedication, Commitment and Quality.</p>
+                    <p>To Keep every Advertiser Happy and Satisfied through Dedication, Commitment and Quality.</p>
                 </div>
             </div>
             <!-- --------------------------------card2 -->
@@ -293,107 +319,57 @@ By providing its customers high quality services, Baleen Media is one of the bes
     
 <!-- ----------------------------------------------------------------------------------- -->
 <!---------------------------------------------------------------------------- groups-new -->
-<section class="groups">
-<h2 style="font-size: 50px; font-family:Montserrat;">GROUPS</h2><br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="grp-card">
-                    <h1>Business Development Group</h1>
-                    <p>Provides On-door service for explaining the offered services & schemes provided by various publications.</p>
-                </div>
-            </div>
-            <!--  -->
-            <div class="col-md-4 mb-4">
-                <div class="grp-card">
-                    <h1>Client Servicing Group</h1>
-                    <p>Coordinates between Client & Publications for Media Planning & Execution.</p>
-                </div>
-            </div>
-            <!--  -->
-            <div class="col-md-4 mb-4">
-                <div class="grp-card">
-                    <h1>Quality Assurance Group</h1>
-                    <p>Seeks for Customer and publications feedback & Satisfactory level.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <!-- -----------------------------------------------------------WWD----------------------- -->
     
 <section class="wwd">
-<h2 style="font-size: 50px; font-family:Montserrat;">OUR TERRITORIES </h2><br>
+<h2 style="font-size: 50px; font-family:Montserrat;"> Our Services </h2><br>
     <div class="container">
         <div class="row">
             <!-- --------------------------------1st -->
-            <div class="col-md-4 mb-4">
+            <div class="col-md-12 mb-4">
            
              <div class="wwd-card2">
-                <h2>Pan-India services </h2>
-                
-                <p>  
-             Pan-India services provide large-scale coverage, from metropolitan cities to rural areas, ensuring widespread impact. 
-            </p>
+
             <div class="wwd-card-in">
                 <h4>Services</h4>   
+            <div class="pan">
             <ul>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Newspapers & Magazines</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Radio Advertisement</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Telivision Advertisement</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Ad flims </a></li>
-            </ul>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Newspapers & Magazines</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Radio Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Telivision Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Ad flims </a></li>
+             </ul>
+             <div class="vertical-line"></div> 
+             <ul>
+                <li><a href="" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;";> Pan-India</a></li>
+                <li><a href="" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;";>Pan-India </a></li>
+                <li><a href="" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;";> Pan-India</a></li>
+                <li><a href="" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;";> Pan-India </a></li>
+             </ul>
              </div>
-            </div>
-            </div>
-            <!-- --------------------------------------2nd -->
-            <div class="col-md-4 mb-4">
-             <div class="wwd-card2">
-                <h2>Across Tamil Nadu </h2>
-                <p>
-                This approach maximizes visibility by targeting urban and rural populations, ideal for businesses expanding statewide. 
-            </p>
-            <div class="wwd-card-in">
-                <h4>Services</h4> 
-            <ul>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Newspapers & Magazines</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Radio Advertisement</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Telivision Advertisement</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Paper insert</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> No parking boards</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Mobile van advertisement</a></li>
-                
-            </ul>
-             </div>
-            </div>
-            </div>
-            <!-- --------------------------------------------3rd -->
-            <div class="col-md-4 mb-4">
-             <div class="wwd-card2">
-                <h2>Across Chennai  </h2>
-                <p>
-                Citywide advertisements in Chennai target local neighborhoods and commercial hubs. 
-            </p>
-            <div class="wwd-card-in">
-                <h4>Services</h4> 
-            <ul>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Pamplets</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Paper insertion</a></li>                  
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Radio Advertisement</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Local channel Advertisement</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Bus back panel (Also bangalore)</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Full bus branding (Also bangalore)</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Lamp post boards</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Bus shelters</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Traffic awareness boards</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Apartment screen advertisement</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Lamp post boards</a></li>
-                <li><a href=""><i class="fa-solid fa-circle" style="color: #ffffff;"></i> Auto Rickshaw full/back</a></li>
 
+             <ul>  
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> No parking boards</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Mobile van advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Pamplets</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Paper insertion</a></li>                  
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Radio Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Local channel Advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Bus back panel (Also bangalore)</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Full bus branding (Also bangalore)</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Lamp post boards</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Bus shelters</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Traffic awareness boards</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Apartment screen advertisement</a></li>
+                <li><a href=""><i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-right:5px; "></i> Auto Rickshaw full/back</a></li>
             </ul>
              </div>
             </div>
+            </div>
+           
+            
             </div>
             <!--  -->
          </div>

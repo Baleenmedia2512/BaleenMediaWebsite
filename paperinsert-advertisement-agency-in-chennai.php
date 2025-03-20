@@ -1,5 +1,5 @@
 <?php
-include('include/top_paperinsert.php');
+include('include/top.php');
 ?>
 <style>
 	 /* =================================================================================banner css */

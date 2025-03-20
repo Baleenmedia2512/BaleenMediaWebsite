@@ -6,9 +6,6 @@ color:#F1aAFF;
 	marquee a:hover{
 		color:#F1aAFF;
 		}
-		marquee a{
-			color:white;
-		}
 	.menu li a:hover{
 		color:#F1aAFF;
 	}
@@ -18,20 +15,113 @@ color:#F1aAFF;
 	.wave{
 		width: 100%;
 	}
-	#backtotop i {
-		cursor: pointer;
-    border-radius: 50%;
-    color: #ffffff;
-    background: #af82ff;
-    padding: 20px;
-    transition: .3s;
-	font-size:20px;
+  #backtotop i {
+    cursor: pointer;
+border-radius: 50%;
+color: #ffffff;
+background: #af82ff;
+padding: 15px;
+transition: .3s;
+font-size:20px;
+
 }	
-#backtotop{
-	width:50px;
-	height:30px;
+/* Back to Top Button */
+#backtotop {
+    position: fixed;
+    bottom: 8px;
+    left: 30px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1001;
+    display: none; /* Hidden initially */
+    cursor: pointer;
+  }
+  
+/* Add keyframes for bounce animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px); /* Move up by 10px */
+  }
+  60% {
+    transform: translateY(-5px); /* Slightly less bounce */
+  }
 }
-		
+  
+  /* WhatsApp and Phone Buttons in Row at Bottom Right Corner */
+  #floating-buttons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    display: none; /* Hidden initially */
+    display: flex;
+    gap: 15px;
+    flex-direction: row; /* Align in a row */
+  }
+  
+  /* Apply the bounce animation to the floating buttons */
+.floating-btn {
+  background-color: #25d366; /* WhatsApp green */
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  animation: bounce 2s infinite; /* Bounce animation every 2 seconds */
+}
+
+  
+  .floating-btn.phone {
+    background-color: #4CAF50; /* Phone call button color */
+  }
+  
+  .floating-btn:hover {
+    background-color: #128C7E; /* Hover color for WhatsApp */
+  }
+  
+  .floating-btn.phone:hover {
+    background-color: #388E3C; /* Hover color for Phone */
+  }
+  
+  /* Show the buttons when scrolling */
+  .show1 {
+    display: flex !important; /* Force display when class is added */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    #floating-buttons {
+      right: 20px;
+      bottom: 20px;
+    }
+  
+    #backtotop {
+      left: 20px;
+      bottom: 20px;
+    }
+  
+    .floating-btn {
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+    }
+  }
+  .footer-widget li a{
+    font-size:20px;
+    font-weight:600;
+}
 </style>
 	
 	    
@@ -48,7 +138,7 @@ color:#F1aAFF;
                     <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
                         <h6 class="widget-title">Services</h6>
                         <div>
-                            <ul class="menu ">
+                            <ul class="menu">
 								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;">Newspaper Ads</a></li>
 								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Magazine Ads</a></li>
                                 <li><a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;">Paper Inserts</a></li>
@@ -67,14 +157,14 @@ color:#F1aAFF;
 						<div>
 							<ul class="list-inline">
 								<li class="list-inline-item">
-									<a class="facebook social-icon" href="https://www.facebook.com/baleenmediaa/?ref=br_rs" title="Facebook" target="_blank"><i class=" fa-lg fa fa-facebook"></i></a>
+									<a class="facebook social-icon" href="https://www.facebook.com/baleenmedia" title="Facebook" target="_blank"><i class=" fa-lg fa fa-facebook"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a class="twitter social-icon" href="https://twitter.com/" title="Twitter" target="_blank"><i class=" fa-lg fa fa-twitter"></i>
+									<a class="twitter social-icon" href="https://www.youtube.com/@baleenmedia" title="Youtube" target="_blank"><i class=" fa-lg fa fa-youtube"></i>
 									</a>
 								</li>
 								<li class="list-inline-item">
-									<a class="instagram social-icon" href="https://www.instagram.com/baleenmediaofficial/" title="Instagram" target="_blank"><i class=" fa-lg fa fa-instagram"></i>
+									<a class="instagram social-icon" href="https://www.instagram.com/baleen.media" title="Instagram" target="_blank"><i class=" fa-lg fa fa-instagram"></i>
 									</a>
 								</li>
 								<li class="list-inline-item">
@@ -115,6 +205,7 @@ color:#F1aAFF;
 		<a href="digitalmarketing-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Digital Marketing, </a>
 		<a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;"> NoParking Board, </a>
 		<a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Paper Inserts, </a> 
+		<a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Theatre Ads, </a>
 		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Auto Back Ads, </a>
 	  </marquee>
 	  </div>
@@ -128,8 +219,20 @@ color:#F1aAFF;
         </div>
     </footer>
 
-    <!--======= Back to Top =======-->
-    <div id="backtotop"><i class="fa fa-lg fa-arrow-up"></i></div>
+    <!-- WhatsApp and Phone Floating Buttons -->
+<div id="floating-buttons">
+    <a href="https://wa.me/919566031113" target="_blank" class="floating-btn whatsapp">
+      <i class="fa fa-whatsapp"></i>
+    </a>
+    <a href="tel:+919566031113" class="floating-btn phone">
+      <i class="fa fa-phone"></i>
+    </a>
+  </div>
+  
+  <!-- Back to Top Button -->
+  <div id="backtotop">
+    <i class="fa fa-lg fa-arrow-up"></i>
+  </div>
 
 
     <!-- /.backtotop -->
@@ -227,6 +330,7 @@ color:#F1aAFF;
 				});
 			});
 		</script>
+		
 
 </body>
 

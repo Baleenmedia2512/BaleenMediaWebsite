@@ -1,5 +1,5 @@
 <?php
-include('include/top.php');
+include('include/blogtp.php');
 ?>
 <style>
 /* .blog-card{

@@ -1,10 +1,10 @@
 <?php
-include('include/top.php');
+include('include/top_bus_shelter.php');
 ?>
 <style>
 	 /* =================================================================================banner css */
 .service-banner{
-    background-image: linear-gradient(#f1eafe, #e0cefd, #c4a6fb);
+    background-image: linear-gradient(#f1eafe, #e0cefd, #c4a6fb); 
     padding-top:30px;
             border:0px;
 }
@@ -58,28 +58,101 @@ include('include/top.php');
 /* =================================================================================banner css end*/
 
 /* =================================================================================service-about css*/
-.service-about-bg{
-	background:#ede3fd;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-	padding-bottom:20px;
-}
-.service-about-bg p{
-	font-size:18px;
-	font-weight:550;
-	padding:0px 20px;
-	font-family:nunito;
-	color:black;
-}
-.service-about-bg span{
-	font-family: "Gloria Hallelujah", cursive;
+.service-about-bg {
+        background: #ede3fd;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        padding: 20px;
+        text-align: center;
+    }
+    .service-about-bg h2 {
+        font-size: 23px;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-style: italic;
-    font-size: 18.5px;
-	
-}
+    padding: 20px 0px;
+    color: #333;
+    text-align: left;
+    }
+    .service-about-bg p {
+        font-size: 16px;
+        font-weight: 550;
+        padding-bottom: 20px;
+        font-family: "Nunito", sans-serif;
+        color: #3d3d3d;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .service-about-bg h3{
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: #3d3d3d;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .service-about-bg h4{
+        font-size: 30px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 20px 0px;
+    color: #333;
+    }
+    .points{
+        font-weight: bold;
+       
+    }
+    .service-about-bg .cta {
+        font-family:  cursive;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 17px;
+        color: #333;
+        
+    }
+
+    @media (min-width: 1000px) {
+        .service-about-bg h2 {
+            font-size: 25px;
+        }
+        .service-about-bg h3{
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: #3d3d3d;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .service-about-bg h4{
+        font-size: 38px;
+        font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 20px 0px;
+    color: #333;
+    }
+    
+        .service-about-bg p {
+            font-size: 20px;
+            line-height: 1.6;
+            padding-bottom: 20px;
+            
+        }
+        .service-about-bg .cta {
+        font-family:  cursive;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 20px;
+        color: #333;
+        
+    }
+    .points{
+        font-weight: bold;
+        text-align: left;
+    }
+    }
 
 .We-work-with-bg{
 	background:#fffbf5;
@@ -130,11 +203,35 @@ border:1px solid;
  </section>
  <!-- ============================================================================================================================================= -->
  <div class="empty-space" style="height:50px; background-image: linear-gradient(white,#ede3fd);"></div>
-<section class="service-about-bg">
-<h2 style="font-size: 40px; font-family:Montserrat;  padding:20px 0px;">Why Bus shelter Ads?</h2>
-<p>Bus shelter advertising is a powerful way to reach diverse people on the move cost-effectively. Our bus shelter advertising solutions offer prime location opportunities to reach your target audience.</p>
-<br>
-<p><span>Get your brand well known and remarkable by Bus shelter Advertisement.</span></p>
+ <section class="service-about-bg">
+<h4 style="font-size: 32px; font-family:Montserrat;  padding:20px 0px; font-weight: 600; text-align: center; ">Why Bus Shelter Advertising?</h4>
+    <h2>Chennai Bus Stop Advertising – Connect with Your Audience at Every Stop</h2>
+    <p>Welcome to our comprehensive advertising solutions, specializing in Chennai bus stop advertising, bus shelter advertising, government bus stand advertising, and bus bay advertisements in Chennai. With our strategically placed ads, your brand can effectively reach thousands of commuters and pedestrians throughout the city, creating a memorable presence.</p>
+
+    <h2>Why Opt for Bus Shelter Advertising in Chennai?</h2>
+    <p>Bus shelter advertising in Chennai offers unparalleled visibility and engagement. Located in busy areas, these shelters provide an excellent platform to capture the attention of the local populace. Here are some key advantages:</p>
+    <p> <span class="points">Extensive Reach:</span> With numerous people waiting at bus shelters daily, your ads are seen by a large audience.</p>
+    <p> <span class="points">Longer Engagement:</span> Commuters waiting for buses give your advertisements prolonged visibility, enhancing brand recall.</p>
+    <p> <span class="points">All-Day Exposure:</span> Illuminated shelters ensure your message is visible both day and night with eye catching backlights.</p>
+
+    <h2>Government Bus Stand Advertising – Engage High-Traffic Areas</h2>
+    <h3>Benefits of Government Bus Stand Advertising:</h3>
+    <p>Government bus stands are bustling transit points, making government bus stand advertising in Chennai an effective strategy for connecting with a broad audience. These locations are ideal for attracting attention in heavily trafficked urban settings.</p>
+    <p> <span class="points">High Volume of Passersby: </span> With thousands of commuters passing through, these stands offer significant exposure.</p>
+    <p> <span class="points">Prime Locations</span> Strategically placed in busy areas, your ads can easily capture attention.</p>
+    <p> <span class="points">Cost-Effective Reach: </span>Achieve extensive brand visibility without the high costs associated with other advertising methods.</p>
+
+    <h2>Bus Bay Advertisement in Chennai – Capturing Commuters on the Move</h2>
+    <p>Bus bay advertisements in Chennai provide impactful exposure, reaching individuals actively using public transportation. Situated in high-traffic locations, these ads engage both passengers and pedestrians, offering them extended visibility.</p>
+    <h3>Key Benefits of Bus Bay Advertising:</h3>
+    <p> <span class="points">Optimal Placement:  </span> Located in key areas to maximize exposure.</p>
+    <p> <span class="points">Prolonged Viewing Opportunities:  </span> Ads are likely to be noticed by both waiting passengers and those passing by.</p>
+    <p> <span class="points">Customizable Formats: </span> Design unique advertisements that leave a lasting impression.</p>
+
+    <h2>Collaborate with Us for Comprehensive Chennai Bus Advertising</h2>
+    <p>At Baleen Media, we are dedicated to enhancing your brand’s visibility across Chennai's most frequented locations. Our expertise in Chennai bus stop advertising, bus shelter ads, government bus stand promotions, and bus bay placements guarantees impactful advertising solutions.</p>
+
+    <p class="cta">Ready to take your advertising to the next level? Contact us today to explore our services in Chennai!</p>
 </section>
  <!-- =========================================================================================================================================== -->
 <section class="We-work-with-bg">

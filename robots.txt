@@ -1,5 +1,28 @@
-
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Allow: /
+
+# Allow specific directories to ensure assets are indexed
+Allow: /wp-content/uploads/
+Allow: /wp-content/themes/
+Allow: /wp-content/plugins/
+Allow: /assets/
+Allow: /public/
+
+# Sitemap location
 Sitemap: https://www.baleenmedia.com/sitemap.xml
+
+# Crawl delay to reduce server load
+Crawl-delay: 10
+
+# Bot-Specific Directives to optimize indexing behavior
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 20
+
+User-agent: MJ12bot
+Crawl-delay: 20

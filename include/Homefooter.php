@@ -20,9 +20,6 @@ color:white;
 	.site-footer a:hover {
 color:#F1aAFF;
 	}
-	marquee a{
-		color:white;
-	}
 	marquee a:hover{
 		color:#F1aAFF;
 		}
@@ -31,7 +28,20 @@ color:#F1aAFF;
 	}
 	.list-inline li a:hover{
 		color:#F1aAFF;
-	}	
+	}
+	marquee a{
+		color:white;
+	}
+	
+	#backtotop i {
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+	background:#063b57;;
+	padding:25px 15px;
+    transition: .3s;
+}
+	
 	
 </style>
    <!--  <div class="container">
