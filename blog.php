@@ -31,6 +31,7 @@ include('include/blogtp.php');
     margin-bottom: 15px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
 }
 
 .blog-card p {
@@ -189,6 +190,38 @@ include('include/blogtp.php');
     <!-- ------------------------------------card-1 -->
     <div class="col-md-6">
       <div class="blog-card" style="background:#FFF2CC;">
+        <img src="https://baleenmedia.com/assets/images/newspaper-ad-booking-guide.svg" alt="Why Your Website Isn't Ranking — and How to Fix It Fast" class="img-fluid" style="max-height: 325px;">
+        <h1>How to Book a Newspaper Ad in Tamil Nadu: Step-by-Step Guide</h1>
+        <p>In this fast changing world, where digital marketing holds the power, the newspaper is the right alternative for it. Whether you're a business looking to reach local customers or an individual placing a personal announcement, newspaper advertising remains one of the most trusted and effective ways to get noticed—especially.</p>
+        <a href="https://baleenmedia.com/how-to-book-a-newspaper-ad"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="blog-card" style="background:#FFF2CC;">
+        <img src="assets/images/seo services.svg" alt="Why Your Website Isn't Ranking — and How to Fix It Fast" class="img-fluid" style="max-height: 325px;">
+        <h1>Why Your Website Isn't Ranking — and How to Fix It Fast</h1>
+        <p>Struggling to see your website on Google's first page? You're not alone. Many businesses build attractive sites, but they still fail to rank — costing them traffic, leads, and sales.  Whether you're a startup or a brand with legacy, this guide explains what might be holding your site back...</p>
+        <a href="https://baleenmedia.com/why-your-website-isnt-ranking"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="blog-card" style="background:#FFF2CC;">
+        <img src="assets/images/Insta ads.png" alt="Why Your Business Needs a Digital Marketing Strategy in 2025" class="img-fluid" style="max-height: 325px;">
+        <h1>Why Your Business Needs a Digital Marketing Strategy in 2025</h1>
+        <p>In the fast-changing digital landscape of 2025, having a strong online presence is no longer optional—it's essential. Whether you're a startup, a small business, or an established brand, a strategic digital marketing plan is key to connecting with modern consumers and staying competitive.</p>
+        <a href="Why-Business-Digital-Marketing-Strategy.php"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="blog-card" style="background:#FFF2CC;">
+        <img src="assets/images/bus_blog.svg" alt="Top 10 Bus Advertising Agencies in Chennai 2025" class="img-fluid">
+        <h1>Top 10 Bus Advertising Agencies in Chennai 2025</h1>
+        <p>In a city as dynamic as Chennai, bus advertising remains one of the most influential mediums for capturing local attention. With thousands of commuters traversing the busy MTC routes daily, effective bus ad campaigns can elevate your brand in ways that static media cannot. Below is an in-depth look at the top 10 bus advertising agencies in Chennai for 2025, with detailed insights into each agency’s strength and expertise.</p>
+        <a href="top-10-bus-advertising-agencies-in-chennai-2025.php"><button type="button" class="btn btn-outline-primary">Read More</button></a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="blog-card" style="background:#FFF2CC;">
         <img src="assets/images/building brand.png" alt="" class="img-fluid">
         <h1>Building Brand: The Role of Advertising Agencies in Creating Iconic Brands</h1>
         <p>In the bustling city of Chennai, the need for exceptional advertising agencies has become more crucial than ever.</p>
@@ -222,6 +255,7 @@ include('include/blogtp.php');
         <a href="how-to-choose-the-best-advertising-agency-in-chennai.php"><button type="button" class="btn btn-outline-primary">Read More</button></a>
       </div>
     </div>
+    
   </div>
 </div>
 

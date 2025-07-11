@@ -47,10 +47,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Top Hoarding Advertising in Chennai | Advertising Company">
-    <meta name="keywords" content="hoarding advertising in Chennai">
+    <meta name="title" content="Baleen Media: Best Advertising Agency in Chennai">
+    <meta name="keywords" content="Baleen Media, Best Advertising Agency in Chennai">
     <meta name="author" content="Baleen Media">
-    <meta name="description" content="Best hoarding advertising in Chennai by Baleen Media. We Specialize in creating top hoardings. Our hoarding advertising solutions are best for your business.">
+    <meta name="description" content="Baleen Media: Best Advertising Agency in Chennai. We do from A to Z advertising services in and around Chennai.">
     <meta name="author" content="Baleen Media">
 
   <!-- Google Tag Manager -->
@@ -64,7 +64,7 @@
   <!-- End Google Tag Manager -->
 
     <!-- Site Title-->
-    <title> Top Hoarding Advertising in Chennai | Advertising Company</title>
+    <title>Baleen Media: Best Advertising Agency in Chennai</title>
     <link rel="canonical" href="https://baleenmedia.com/about.php" />
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/images/thumbnail.png" type="image/x-icon">
@@ -294,7 +294,7 @@
 							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item">Television Ad</a>
 							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item">Radio Ad</a>							
 							<a href="theatre-advertisement-agency-in-chennai.php" class="dropdown-item">Theatre Ad</a>							
-							<!--<a href="digitalmarketing-advertisement-agency-in-chennai.php" class="dropdown-item">Digital Marketing</a>							-->
+							<a href="digital-marketing-agency-chennai.php" class="dropdown-item">Digital Marketing</a>
                         </div>
                     </li>
                     <!-- Dropdown -->

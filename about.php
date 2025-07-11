@@ -1,5 +1,5 @@
 <?php
-include('include/top.php');
+include('include/top_about.php');
 ?>
 <style>
     @media screen and (min-width:1204px) {

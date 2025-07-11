@@ -264,7 +264,7 @@
 							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item">Television Ad</a>
 							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item">Radio Ad</a>							
 							<a href="theatre-advertisement-agency-in-chennai.php" class="dropdown-item">Theatre Ad</a>							
-							<!--<a href="digitalmarketing-advertisement-agency-in-chennai.php" class="dropdown-item">Digital Marketing</a>							-->
+							<a href="digital-marketing-agency-chennai.php" class="dropdown-item">Digital Marketing</a>
                         </div>
                     </li>
                     <!-- Dropdown -->

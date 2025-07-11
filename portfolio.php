@@ -389,7 +389,7 @@ include('include/top.php');
   <h2 style="font-size: 50px; font-family:Montserrat;  padding:30px 0px;">Our Clients</h2>
   </div> -->
 <!-- ==========================our clients ================================-->
- <section class="client-bg pb-5">
+ <!--<section class="client-bg pb-5">
  <h2 style="font-size: 50px; font-family:Montserrat;  padding:30px 0px;">Our Clients</h2>
 <section class="section-padding" style="padding: 20px; zoom:40%;">
         <div class="mb-5">       
@@ -466,8 +466,8 @@ include('include/top.php');
     </section>  
         </div>
     </section>
-    <!--  -->
-    </section>
+    <!-- </section> -->
+    
 
  
   

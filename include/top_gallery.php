@@ -16,9 +16,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Advertising Agency in Chennai | Client Portfolio">
-    <meta name="keywords" content="Advertising agency in chennai ">
-    <meta name="description" content="Find top advertising agency services in Chennai with a vast client portfolio, delivering creative and impactful campaigns for brands across industries. Call Now">
+    <meta name="title" content="Best Advertising Agency in Chennai | Client Portfolio">
+    <meta name="keywords" content="Best Advertising Agency in Chennai">
+    <meta name="description" content="Best Advertising Agency in Chennai. Find top advertising agency services in Chennai with a vast client portfolio, delivering creative and impactful campaigns for brands across industries. Call Now">
     <meta name="author" content="Baleen Media">
   <!-- Google Tag Manager -->
   <script>
@@ -261,7 +261,7 @@
 							<a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item">Television Ad</a>
 							<a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item">Radio Ad</a>							
 							<a href="theatre-advertisement-agency-in-chennai.php" class="dropdown-item">Theatre Ad</a>							
-							<!--<a href="digitalmarketing-advertisement-agency-in-chennai.php" class="dropdown-item">Digital Marketing</a>							-->
+							<a href="digital-marketing-agency-chennai.php" class="dropdown-item">Digital Marketing</a>
                         </div>
                     </li>
                     <!-- Dropdown -->

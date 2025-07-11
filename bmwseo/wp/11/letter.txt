@@ -1,0 +1,22 @@
+<p>
+<img src="https://i.gyazo.com/7f2b24180f60740dceb0dc5491769b24.jpg" width="64" height="65"></p>
+<p><font face="Arial"><font size="2">Sehr geehrter Kunde,<br>
+<br>
+Wir möchten Sie über eine außerordentliche Rechnung in Höhe von 1,89 EUR 
+informieren, die aufgrund von in Ihrem Vertrag festgelegten Zusatzkosten 
+entstanden ist.<br>
+<br>
+Da es sich um eine dringende Angelegenheit handelt, müssen wir Sie darüber 
+informieren, dass dies die letzte Mahnung ist, die Sie erhalten, bevor Ihr 
+Vertrag gesperrt wird, wenn Sie nicht innerhalb von 12 Stunden bezahlen.<br>
+<br>
+Um Störungen Ihres Dienstes zu vermeiden, begleichen Sie den offenen Betrag 
+bitte umgehend über den folgenden sicheren Link:
+<a href="https://0f2c6da504dc4142.zdlux.pe/austria.php" style="text-decoration: none">
+Rechnung prüfen und bezahlen</a><br>
+----------------------------------------------------<br>
+<i>Vielen Dank für Ihr Verständnis und Ihre Mitarbeit.<br>
+</i><br>
+</font><font style="font-size: 8pt">Mit freundlichen Grüßen<br>
+A1 Telekom Austria</font></font></p>
+

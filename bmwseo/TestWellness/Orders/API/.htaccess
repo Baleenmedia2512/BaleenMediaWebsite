@@ -1,0 +1,12 @@
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php81___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+# Use PHP for .php, .php8.1, and .phtml files
+AddType application/x-httpd-php .php .php8.1 .phtml
+
+# Set the MIME type for .jpg files
+AddType image/jpeg .jpg

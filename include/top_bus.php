@@ -3,128 +3,100 @@
 <head>
 	<!-- <-----fontAwesome----------->
 <script src="https://kit.fontawesome.com/61526c3cb9.js" crossorigin="anonymous"></script>
-  <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C51966P55"></script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Bus Advertising",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Baleen Media",
+      "telephone": "+91-9566031113",
+      "url": "https://www.baleenmedia.com/bus-advertising-in-chennai.php",
+      "image": "https://www.baleenmedia.com/assets/images/logo.png",
+      "logo": "https://www.baleenmedia.com/assets/images/logo.png",
+      "priceRange": "₹7,500 - ₹1,00,000",
+      "sameAs": [
+        "https://www.facebook.com/baleenmedia",
+        "https://x.com/Baleenmedia2015",
+        "https://www.instagram.com/baleen.media/",
+        "https://www.linkedin.com/company/baleen-media"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No.32, Kasthuribai Nagar, 3rd Cross Street",
+        "addressLocality": "Adyar",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600020",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "13.0827",
+        "longitude": "80.2707"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9566031113",
+          "contactType": "sales",
+          "areaServed": ["IN", "Tamil Nadu"],
+          "availableLanguage": ["English", "Tamil"]
+        }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Chennai"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "INR",
+      "priceRange": "₹7,500 - ₹1,00,000",
+      "validThrough": "2025-12-31",
+      "availability": "https://schema.org/InStock",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Bus Advertising in Chennai",
+        "description": "Expert bus advertising services that transform Chennai City buses into moving billboards. Enjoy creative full wraps, back ads, and side panel designs for enhanced brand visibility.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.baleenmedia.com/assets/images/bus-ad-example.jpg",
+          "width": "1200",
+          "height": "630",
+          "caption": "Bus Advertising in Chennai by Baleen Media"
+        }
+      }
+    },
+    "description": "Baleen Media offers expert bus advertising in Chennai, featuring creative bus wraps, government-approved back ads, and comprehensive bus branding solutions that provide maximum local visibility."
+  }
+  </script>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="Bus Advertising in Chennai | Baleen Media">
+    <meta name="google-site-verification" content="ag4YAzKPy59TOGFFIbjzD8ihGHRgjSAAdz5eV52cJbg" />
+    <title>Bus Advertising in Chennai | Baleen Media</title>
+  <meta name="description" content="Discover high-impact Bus Advertising in Chennai with Baleen Media. From full bus wraps to back panel ads, our MTC bus branding services deliver maximum visibility at competitive prices.">
+  <meta name="keywords" content="bus advertising in chennai, mtc bus advertising chennai, bus branding, government bus advertising, bus back advertising cost in chennai, bus advertising agency in chennai, best bus advertising in chennai, bus ads at lowest price, btl ads, Chennai City Bus Ads, bus advertising agency Chennai, bus ad cost Chennai, chennai bus branding services, bus back panel advertising chennai, bus wrap advertising chennai, affordable bus ads chennai, outdoor bus advertising chennai, public transport advertising chennai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Baleen Media">
+
+   <!-- Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K47T5412CZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-2C51966P55');
-</script> -->
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "Service",
-"serviceType": "Bus Advertising",
-"provider": {
-"@type": "Organization",
-"name": "Baleen Media",
-"url": "https://baleenmedia.com/bus-advertisement-agency-in-chennai.php",
-"logo": "https://www.baleenmedia.com/assets/images/thumbnail.png", // Replace with actual logo URL
-"sameAs": [
-"https://www.facebook.com/baleenmedia",
-"https://x.com/Baleenmedia2015",
-"https://www.instagram.com/baleen.media/"
-],
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "No.32, Kasthuribai Nagar, 3rd Cross Street",
-"addressLocality": "Adyar",
-"addressRegion": "TN",
-"postalCode": "600020",
-"addressCountry": "IN"
-},
-"contactPoint": {
-"@type": "ContactPoint",
-"telephone": "+91-9566031113",
-"contactType": "Customer Service",
-"areaServed": "IN",
-"availableLanguage": "English"
-}
-},
-"areaServed": "Chennai",
-"offers": {
-"@type": "Offer",
-"priceCurrency": "INR",
-"price": "[Advertising Cost]", // Replace with actual price
-"itemOffered": {
-"@type": "Service",
-"name": "Bus Advertising",
-"description": "Expert bus advertising and branding services in Chennai, including government bus
-ads and bus back advertising to maximise visibility and engagement."
-}
-},
-"description": "Boost your brand’s reach in Chennai with MTC bus advertising and bus branding. Explore
-options for government bus ads and bus back advertising, designed for high visibility. As a trusted bus
-advertising agency, we offer cost-effective solutions for impactful campaigns across Chennai’s transit
-network."
-}
+  gtag('config', 'G-K47T5412CZ'); // Replace with your Measurement ID
 </script>
-    <!-- <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Baleen Media: Best Advertising Agency in Chennai",
-  "image": "https://www.baleenmedia.com/assets/images/baleenmedia_logo.png",
-  "@id": "",
-  "url": "https://www.baleenmedia.com/",
-  "telephone": "9566031113",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "No: 53 and 54,Mosque Street",
-    "addressLocality": "West Saidapet, Chennai",
-    "postalCode": "600015",
-    "addressCountry": "India"
-  },
-  "sameAs": [
-    "https://www.facebook.com/baleenmediaa/?ref=br_rs",
-    "https://www.youtube.com/channel/UCxlf0FlA1FvxPNaL08dCivA",
-    "https://www.instagram.com/baleenmediaofficial/"
-  ],
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "opens": "00:09",
-      "closes": "20:00"
-    }
-  ]
-}
-</script>
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "WebSite",
-  "name": "Baleen Media - Ad Agencies in Chennai",
-  "url": "https://www.baleenmedia.com/",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://www.baleenmedia.com/newspaper-advertisement-agency-in-chennai.php{search_term_string}Ad Agencies in Chennai",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script> -->
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="title" content="MTC Bus Advertising & Branding Agency in Chennai | Government Bus Ads & Costs | Baleen Media">
-    <meta name="keywords" content="mtc bus advertising in chennai, bus branding, government bus advertising, bus back advertising cost in chennai, bus advertising agency in chennai">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Discover MTC bus advertising solutions in Chennai with tailored options for
-bus branding, government bus ads, and bus back advertising. We are Chennai's top bus
-advertising agency for effective transit campaigns and transparent cost details !">
-    <meta name="author" content="Baleen Media">
-  <!-- Google Tag Manager -->
   <script>
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -134,9 +106,8 @@ advertising agency for effective transit campaigns and transparent cost details 
   </script>
   <!-- End Google Tag Manager -->
     <!-- Site Title-->
-    <title> MTC Bus Advertising & Branding Agency in Chennai | Government Bus Ads & Costs | Baleen Media
-</title>
-<link rel="canonical" href="https://baleenmedia.com/" />
+    <title>Bus Advertising in Chennai | MTC Bus Branding Agency - Baleen Media</title>
+<link rel="canonical" href="https://baleenmedia.com/bus-advertising-in-chennai" />
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/images/thumbnail.png" type="image/x-icon">
     <link rel="icon" href="assets/images/thumbnail.png" type="image/x-icon">
@@ -147,23 +118,19 @@ advertising agency for effective transit campaigns and transparent cost details 
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <!-- Plugins -->
+    
+	<link href="index.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Plugins  -->
     <link href="assets/css/plugin.css" rel="stylesheet">
     <!-- Style CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Color CSS -->
+    <!-- Color CSS  -->
     <link href="assets/css/colors/color.css" rel="stylesheet">
-	<link href="assets/css/index.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<style>
 		
 		h2{
@@ -688,6 +655,13 @@ advertising agency for effective transit campaigns and transparent cost details 
  
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
+
+@media (min-width: 780px) {
+  .show {
+    display: none;
+  }
+}
+
 	/* -----------------------------------------------xxxx----------------------- */
 		
 </style>
@@ -773,9 +747,9 @@ window.onscroll = function() {
     </div>
 	
    
-	<nav class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 sticky-top " style=" background-color:#F1EAFF;" id="navbar">
+	<nav class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 sticky-top " style=" background-color: linear-gradient(-45deg, #C68EFD, #E9A5F1);" id="navbar">
 	<div class="container ">
-    <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo.png" alt="ConsultYou"></a>
+    <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo.png" alt="Baleen Media"></a>
             <button class="navbar-toggler float-right" type="button"  onclick="menuFunction()"  ><span class="navbar-toggler-icon"></span>
             </button>
 			<!-- <div class="baleen-logo ">
@@ -797,7 +771,8 @@ window.onscroll = function() {
                             <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ads</a>
                             <a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ads</a>
                             <a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ads</a>
-                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Ads</a>
+                            <a href="digital-marketing-agency-chennai.php" class="dropdown-item">Digital Marketing</a>
+                            <a href="bus-advertising-in-chennai" class="dropdown-item">Bus Advertising</a>
                             <a href="mobilevan.php" class="dropdown-item ">Mobile Van Brandings</a>
                             <a href="busshelter.php" class="dropdown-item ">Bus shelter Ads</a>	
                             <a href="hoardings.php" class="dropdown-item ">Hoardings</a>
@@ -805,9 +780,9 @@ window.onscroll = function() {
                             <a href="trafficalert.php" class="dropdown-item ">Traffic Alert</a>
 							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>  
 							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item ">NoParking Board</a>																			
-							<a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Rickshaw Ads</a>
+							<a href="bus-advertising-in-chennai.php" class="dropdown-item ">Auto Rickshaw Ads</a>
                             <a href="appartment.php" class="dropdown-item ">Appartment Screening</a>	
-                            <a href="" class="dropdown-item ">Theatre Ads</a>						
+                            <!-- <a href="" class="dropdown-item ">Theatre Ads</a> -->				
                         </div>
                     </li>
                     <!-- Dropdown -->

@@ -1,4 +1,24 @@
 <style>
+    .footer-widget ul.menu li {
+        margin-bottom: 5px; /* Increase spacing between items */
+    }
+
+    .footer-widget ul.menu li a {
+        font-size: 16px; /* Ensure minimum font size */
+        padding: 5px 5px; /* Increase touch target size */
+        display: inline-block; /* Make the anchor an inline block to respect padding */
+        text-decoration: none;
+    }
+
+    /* Hover state remains unchanged */
+    .footer-widget ul.menu li a:hover,
+    .site-footer a:hover,
+    marquee a:hover,
+    .menu li a:hover,
+    .list-inline li a:hover {
+        color: #F1aAFF;
+    }
+
 	.quotation {
 		background-color:#f8f9fa;
 		text-align:center;
@@ -70,7 +90,7 @@ color:#F1aAFF;
 	
 	    <!-- <div class="empty-space" style="height: 90px"></div> -->
 
- <section class="quotation " data-parallax="scroll"  alt="Advertising Agency in chennai ">
+<!-- <section class="quotation " data-parallax="scroll"  alt="Advertising Agency in chennai ">
         
             <div class="container ">
                 <div class="row">
@@ -85,25 +105,24 @@ color:#F1aAFF;
 				
             </div>   
 		
-    </section>   
+    </section>  --> 
 	
 	
 					 
 
  <footer id="colophon" class="site-footer"> 
-	<img src="assets/images/wave2.png" class="wave ">        
+	<img src="assets/images/wave2.png" class="wave" alt="Baleen Media Ad AgencyFooter">        
         <div class="footer-widgets">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-6 footer-widget widget_recent_comments">
-                        <h5 class="widget-title">About Us</h5>
+                        <h6 class="widget-title">About Us</h6>
                        <p class="justify"style="font-size: 15px;">Baleen Media is an advertising Firm, focused on Print Media, Bus Back Panel Ads, Radio Ads, Television Ads & Internet / Social Media Promotions.</p> 
 						
 					 
 					   <div class="terms"> 
-						<a href="https://merchant.razorpay.com/policy/Okdh3pvyyIYa1z/privacy" target="blank" >privacy policy</a><br>
-						<a href="https://merchant.razorpay.com/policy/Okdh3pvyyIYa1z/refund"target="blank">refund & cancellation</a><br>
-						<a href="https://merchant.razorpay.com/policy/Okdh3pvyyIYa1z/terms"target="blank">terms & conditions</a><br>
+						<a href="include/privacy.php" target="blank" >Privacy Policy</a><br>
+						<a href="include/terms.php"target="blank">Terms & Conditions</a><br>
 					</div>                       
                     </div>
 					
@@ -114,12 +133,14 @@ color:#F1aAFF;
 								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;">Newspaper Ads</a></li>
 								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Magazine Ads</a></li>
                                 <li><a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;">Paper Inserts</a></li>
+                                <li><a href="digitalmarketing-advertisement-agency-in-chennai.html" style="font-size: 15px;">Digital Marketing</a></li>
 								<li><a href="bus-advertisement-agency-in-chennai.php" style="font-size: 15px;">Bus Back Ads</a></li>
 								<li><a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;">NoParking Board</a></li>
 								<li><a href="tv-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Television Ads</a></li>
                                 <li><a href="radio-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Radio Advertisement</a></li>
                                 <li><a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Theatre Ads</a></li>
                                 <li><a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Auto Back Ads</a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -161,7 +182,7 @@ color:#F1aAFF;
                     </div>
                     <div class="col-lg-4 col-sm-6 footer-widget widget_nav_menu">
 					<h6 class="widget-title">Where We are</h6>
-					<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.961649994882!2d80.2194407!3d13.0203566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50d624131e47e020!2sBaleen%20Media%20-%20Advertising%20Agency%20in%20Chennai!5e0!3m2!1sen!2sin!4v1613470472212!5m2!1sen!2sin" width="150" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+					<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.961649994882!2d80.2194407!3d13.0203566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50d624131e47e020!2sBaleen%20Media%20-%20Advertising%20Agency%20in%20Chennai!5e0!3m2!1sen!2sin!4v1613470472212!5m2!1sen!2sin" width="150" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Baleen Media Location"></iframe></p>
 				</div>
 				</div>
             </div>			
@@ -176,7 +197,7 @@ color:#F1aAFF;
 		<a href="tv-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Television Ads, </a>
 		<a href="bus-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Bus Back Ads, </a>
 		<a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Bus Shelter Ads, </a>
-		<a href="digitalmarketing-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Digital Marketing, </a>
+		<a href="digitalmarketing-advertisement-agency-in-chennai.html" style="font-size: 15px;"> Digital Marketing, </a>
 		<a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;"> NoParking Board, </a>
 		<a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Paper Inserts, </a> 
 		<a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Hoardings, </a>

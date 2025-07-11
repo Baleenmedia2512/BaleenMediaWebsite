@@ -4,52 +4,70 @@ include('include/top_newspaper.php');
 <link rel="stylesheet" href="assets/css/style.css"> <!-- Link to a separate CSS file -->
 
 <style>
-    /* =================================================================================banner css */
-.service-banner{
-    background-image: linear-gradient(#f1eafe, #e0cefd, #c4a6fb);
-    padding-top:30px;
-            border:0px;
-}
+    /* =================================================================================banner css rgba(241, 234, 254, 0.7), rgba(224, 206, 253, 0.7)*/ 
+    .service-banner{
+        background: linear-gradient(-45deg, #AA60C8 , #D69ADE, #EABDE6, #FFDFEF, #D17D98);//#8F87F1, #C68EFD, #E9A5F1, #FED2E2);//#F6B2E1, #F1EAFEB3, #E0CEFDB3, #F7E1FF, #EFD9F9, #DCC8F5, #C6B3F0, #58126A);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        background-position: center;
+        padding-top:30px;
+        border:0px;
+        justify-content: space-between;
+    }
+
+    @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 100%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    }
 .service-banner h1 {
     font-family: "Poppins", sans-serif;
     text-align: left;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
     border-bottom: 2px solid black;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 .service-banner p{
-    font-size:13px;
-            font-weight:bold;
-            font-family: "Nunito", sans-serif;
-            text-align:justify;
-            line-height:1.4;
-            color:#3d3d3d;
+    font-size:14px;
+    font-weight:bold;
+    font-family: "Nunito", sans-serif;
+    text-align:justify;
+    line-height:1.4;
+    color:#3d3d3d;
 }
 
 @media (min-width: 1000px){
-    .row1{
-    display:flex;
-   align-items:center;
-   justify-content:center;
-}
+
 .service-banner h1{
     font-family: "poppins", sans-serif;
     text-align:left;
-    font-size: 60px;
+    font-size: 30px;
     font-weight:600;
     border-bottom:2px solid black;
     padding-bottom:10px;
     margin-bottom:20px;
 }
 .service-banner p{
-    font-size:20px;
-            font-weight:bold;
-            font-family: "Nunito", sans-serif;
-            text-align:justify;
-            line-height:1.6;
-            color:#3d3d3d;
+    font-size:16px;
+    font-weight:bold;
+    font-family: "Nunito", sans-serif;
+    text-align:justify;
+    line-height:1.6;
+    color:#3d3d3d;
 }
 
 }
@@ -58,180 +76,132 @@ include('include/top_newspaper.php');
     width:100%;
 }
 /* =================================================================================banner css end*/
-.service-about-bg {
-    background: #ede3fd;
+/* =================================================================================service-about css*/
+.service-bg {
     display: flex;
-    flex-direction: column;
+    background: linear-gradient(white, #FAF8FE);
     justify-content: center;
-    padding: 20px;
-    text-align: center;
+    align-items: center;
+    padding-bottom: 20px; 
 }
 
-.service-about-bg h2 {
-    font-size: 23px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    padding: 20px 0;
-    color: #333;
+.service-bg h2{
+    font-family: "poppins", sans-serif;
     text-align: left;
+    font-size: 24px;
+    font-weight:600;
+    border-bottom:2px solid #5C2594;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    color: #5C2594;
+    /*max-width: 80%;*/
 }
 
-.service-about-bg p {
-    font-size: 16px;
-    font-weight: 550;
-    padding-bottom: 20px;
-    font-family: "Nunito", sans-serif;
-    color: #3d3d3d;
-    line-height: 1.5;
-    text-align: justify;
+.service-bg p{
+  font-size:16px;
+	font-weight:550;
+	padding:0px 20px;
+	font-family: "Nunito", sans-serif;
+	color:#5D4D7A;
 }
 
-.service-about-bg h3 {
-    font-size: 18px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    font-family: "Montserrat", sans-serif;
-    color: #3d3d3d;
-    line-height: 1.5;
-    text-align: justify;
+.service-bg h3{
+    font-family: "poppins", sans-serif;
+    text-align: left;
+    padding:0px 20px;
+    font-size: 24px;
+    font-weight:600;
+    margin: 10px 10px;
 }
 
-.service-about-bg h4 {
+.service-about-bg{
+	background:  #FAF8FE;
+	display:flex;
+	flex-direction:row;
+    max-width: 100%;
+	justify-content:center;
+	align-items:center;
+	padding-bottom:20px;
+}
+
+.service-about-bg h2{
+    font-family: "poppins", sans-serif;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:600;
+    border-bottom:2px solid #5C2594;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    text-align: left;
+    color: #5C2594;
+}
+
+.service-about-bg h3{
+    font-family: "poppins", sans-serif;
+    text-align: left;
+    padding:0px 20px;
+    font-size: 24px;
+    font-weight:600;
+    margin: 10px 10px;
+    color: #5C2594;
+}
+
+@media (max-width: 780px){
+    .service-about-bg {
+        flex-direction: column-reverse;
+    }
+    .service-bg {
+        flex-direction: column-reverse;
+    }
+    .row1 {
+        flex-direction: column;
+    }
+    .center-div {
+        text-align: center;
+        max-width: 100%;
+    }
+}
+.head-text {
+    font-family: "poppins", sans-serif;
+    margin: 10px 10px;
+    text-align: left;
     font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    padding: 20px 0;
-    color: #333;
+    font-weight:600;
+    border-bottom:2px solid black;
+    padding-bottom:10px;
+    margin-bottom:20px;
 }
 
-.points {
-    font-weight: bold;
+.service-about-bg p, li{
+	font-size:18px;
+    margin: 10px 10px;
+	font-weight:550;
+	padding:0px 20px;
+	font-family:nunito;
+    text-align: left;
+	color:#5D4D7A;
 }
-
-.service-about-bg .cta {
-    font-family: cursive;
+.service-about-bg span{
+	font-family: "Gloria Hallelujah", cursive;
     font-weight: 600;
     font-style: italic;
-    font-size: 17px;
-    color: #333;
+    font-size: 18.5px;
+	
 }
 
-@media (min-width: 1000px) {
-    .service-about-bg h2 {
-        font-size: 25px;
-    }
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  }
 
-    .service-about-bg h3 {
-        font-size: 18px;
-        padding-bottom: 20px;
-        color: #3d3d3d;
-        line-height: 1.5;
-        text-align: justify;
-    }
-
-    .service-about-bg h4 {
-        font-size: 38px;
-        padding: 20px 0;
-        color: #333;
-    }
-
-    .service-about-bg p {
-        font-size: 20px;
-        line-height: 1.6;
-        padding-bottom: 20px;
-    }
-
-    .service-about-bg .cta {
-        font-size: 20px;
-    }
-
-    .points {
-        text-align: left;
-    }
-}
-
-/* ==============================================================================================service cards css */
-section.ad-types {
-    background-color: #ccc9e2; /* Main background */
-    padding: 50px 10px;
-}
-
-.section-title {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.section-title h2 {
-    font-weight: 700;
-    color: #c4a6fb;
-}
-
-.ad-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-
-.ad-card {
-    position: relative;
-    width: 280px;
-    height: 400px;
-    background-color: #fffbf5;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-
-
-.ad-card img {
-    width: 100%;
-    height: 68%;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.ad-card-content {
-    padding: 20px;
-    background-color: #fffbf5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.ad-card-content h4 {
-    font-size: 23px;
-    color: black;
-    font-weight:600;
-    margin-bottom: 10px;
-}
-
-.ad-card-content p {
-    font-size: 13px;
-    color: black;
-}
-
-
-
-/* Media Queries for responsiveness */
-@media (max-width: 992px) {
-    .ad-cards-container {
-        gap: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .ad-card {
-        width: 100%;
-    }
-}
-/* ============================================================================================== service cards css end */
 .We-work-with-bg{
-    background-color:#fffbf5;
+	background:#fffbf5;
 }
 .section-padding{
     zoom:40%;
@@ -246,177 +216,629 @@ section.ad-types {
     zoom:160%;
 }  
 }
+.img-cards {
+    padding: 20px 20px; 
+}
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.primary-btn {
+  background-color: #201f54;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background-color: #fff;
+  color: #201f54;
+}
+
+.secondary-btn {
+  background-color: #fff;
+  color: #201f54;
+  border: 2px solid #201f54;
+}
+
+.secondary-btn:hover {
+  background-color: #f0f0f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.center-div {
+    text-align: center;
+    max-width: 80%;
+}
+
+#benefits {
+  background-color: #FAF8FE;     /* Very light lavender */
+  color: #3D1562;                /* Deep purple for base text */
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#benefits h2 {
+  text-align: left;
+  font-size: 36px;
+  border-bottom: 2px solid #5C2594;
+  max-width: 80%;
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: #5C2594;                /* Mid‑tone purple */
+}
+
+.benefit-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.benefit-card {
+  background-color: #FFFFFF;     /* Pure white cards */
+  border: 2px solid #9E5CCB;     /* Soft purple border */
+  border-radius: 12px;
+  padding: 10px 0px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(62, 21, 98, 0.15);
+}
+
+.benefit-card i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #9E5CCB;                /* Orchid accent */
+  
+}
+
+.benefit-card h3 {
+  font-size: 18px;
+  margin: 20px 0px;
+  font-weight: 600;
+  color: #3D1562;                /* Deep purple title */
+}
+
+.benefit-card p {
+  font-size: 16px;
+  color: #5D4D7A;                /* Muted purple‑grey for body copy */
+}
+
+.benefits-wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  #benefits h2 {
+    font-size: 28px;
+    max-with: 100%;
+  }
+  .benefit-card h3 {
+    font-size: 18px;
+  }
+  .benefit-card p {
+    font-size: 14px;
+  }
+}
+
+    /* Base animation styles */
+    .fade-in-up {
+    animation: fadeInUp 1s ease-in forwards;
+    opacity: 0;
+    }
+    .fade-in-right {
+    animation: fadeInRight 1s ease-in forwards;
+    opacity: 0;
+    }
+    .fade-in {
+    animation: fadeIn 1.2s ease-out forwards;
+    opacity: 0;
+    }
+
+    /* Delay (optional for staggered entrance) */
+    .fade-in-up {
+    animation-delay: 0.2s;
+    }
+    .fade-in-right {
+    animation-delay: 0.5s;
+    }
+    .fade-in {
+    animation-delay: 0.8s;
+    }
+
+    /* Keyframes */
+    @keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+
+    @keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    }
+
+    @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    }
+    .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .card-img-top {
+    width: 100%;
+    display: block;
+  }
+  .card-body {
+    padding: 20px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+
+  .img-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .card-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 8px;
+    color: #5C2594;
+  }
+
+  .card-text {
+    font-size: 16px;
+    color: #5D4D7A;
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    .head-text {
+      font-size: 28px;
+    }
+    .card-title {
+      font-size: 20px;
+    }
+    .card-text {
+      font-size: 14px;
+    }
+  }
+
+   .faq-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    
+    }
+    .faq-card p {
+        font-family: 'Ariel', sans-serif;
+        color: black;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .faq-card li {
+    color: black;
+    font-family: 'Ariel', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    }
+    .faq-container button{
+    border:0px solid black;
+    
+    background-color:whitesmoke;
+    font-size:20px;
+    
+    }
+    .faqbtn-div{
+        padding:20px;
+        margin-bottom:10px;
+        background-color:whitesmoke;
+        border-bottom:5px solid #B99470;
+        border-radius:15px;
+        width:90%;
+        font-family: 'Ariel', sans-serif;
+    }
+    .faqcard-div{
+    width:90%;
+    font-size:16px;
+    text-wrap:wrap;
+    margin:0px 20px;
+    margin-bottom:10px;
+    }
+    .faqbtn-div:hover{
+    box-shadow: 0 20px 30px -30px rgba(0, 0, 0, 1);
+    width:91%;
+    }
+    .faq-card{
+    padding:20px;
+    border-radius:1px 20px 20px 20px;
+    border-bottom:5px solid #B99470;
+    /* background-color:#874430; */
+    background-color:#F7EFE5;
+    color:black;
+    }
+    @media screen and (min-width:1025px){
+    .faqbtn-div{
+    padding:20px;
+    margin-bottom:10px;
+    background-color:whitesmoke;
+    border-bottom:5px solid #B99470;
+    border-radius:15px;
+    width:70%;
+    }
+    .faqbtn-div:hover{
+    box-shadow: 0 20px 30px -30px rgba(0, 0, 0, 1);
+    width:71%;
+    }
+    .faqcard-div{
+    width:70%;
+    font-size:16px;
+    text-wrap:wrap;
+    margin:0px 20px;
+    margin-bottom:10px;
+    }
+    
+    
+    }
+    .faq-bg{
+    background-color:#FAF8FE;
+    padding:20px 0px;
+    }
+    .faq-bg h2{
+    font-family: "poppins", sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight:600;
+    border-bottom:2px solid #5C2594;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    color: #5C2594;
+    /*max-width: 80%;*/
+}
+    .smp {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 10px;
+        background: white;
+        height: 95%;
+        text-align: center;
+        padding: 10px;
+    }
+    .smp img {
+        border-radius: 9px;
+        width: 100%;
+        height: 250px;
+    }
+    .smp h2 {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #5C2594;
+    }
+
+    .smp a {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #333;
+        text-align: left;
+        color: #5C2594;
+    }
+    .smp p {
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 200;
+        margin: 5px;
+        color: #5C2594;
+    }
+    @media (min-width: 1000px) {
+        .We-work-with-bg h2 {
+            font-size: 36px;
+        }
+        .service-about-bg h2{
+            font-size: 36px;
+            max-width: 100%;
+        }
+        .service-bg h2 {
+          font-size: 36px;
+          max-width: 100%;
+        }
+        .smp h2{
+            font-size: 22px;
+        }
+        .smp p {
+            font-size: 16px;
+        }
+        .smp a {
+            font-size: 25px;
+        }
+    }
+    .bg-img-services {
+        max-height: 250px;
+    }
 </style>
 <!-- Service Banner -->
 <section class="service-banner">
   <div class="container">
     <div class="row1">
       <div class="col-md-6">
-        <h1>Best Newspaper Advertising in Chennai</h1>
-        <p>We are here to provide you the best Newspaper & Magazine Advertisement.</p>
+        <h1>Your Ad in Every Home</h1>
+        <p>Reach your audience through the trusted pages of top newspapers and magazines—where attention is focused, credibility is high, and your message stands out. Whether you're promoting an event, product, or public announcement, print media ensures it lands directly in the hands of engaged readers.</p>
+        <div class="cta-buttons">
+            <a href="/ContactUs" class="btn primary-btn">Get a Quote</a>
+            <a href="#newspaper-advertising-details" class="btn secondary-btn">Know More</a>
+        </div>
       </div>
       <div class="col-md-6">
-        <img src="assets/images/service cards/newspaper reader.png" alt="Newspaper Reader" class="img-fluid" loading="lazy">
+        <img src="assets/images/service cards/newspaper reader.png" alt="Chennai newspaper reader" class="img-fluid" loading="lazy">
       </div>
     </div>
   </div>
-  <img src="assets/images/wave1.png" class="wave" loading="lazy">
+  <img src="assets/images/wave1.png" class="wave" alt="Wave design" loading="lazy">
+</section>
+
+<section class="service-bg" id="newspaper-advertising-details">
+  <div class="container">
+    <h2>Why Choose Newspaper Advertising in Chennai?</h2>
+    <p> Newspaper advertising continues to be one of the most effective and credible ways to reach a local audience in Chennai. With a loyal and diverse readership across various age groups and demographics, newspapers offer an unmatched platform for businesses looking to make a strong, trusted impression. Whether you’re targeting professionals through English dailies like The Hindu or engaging a broader Tamil-speaking audience through Dinamalar or Dinathanthi, print media ensures your message is seen, remembered, and acted upon. From classified line ads to full-page displays, newspaper ads provide high visibility, focused reach, and excellent return on investment—making it a smart choice for both individuals and brands. </p>
+    
+    <h2>Our Newspaper Ad Services</h2>
+    <p>We help you book ads across Tamil and English newspapers such as The Hindu, Dinamalar, Dinathanthi, Times of India, and more. Our team ensures your ad copy is well-crafted and submitted to publishers on time.</p>
+    </div>
+    </section>
+    <!-- ======================================================service cards -->
+    <section class="service-about-bg">
+  <div class="benefits-wrapper">
+    <h3 style="border-bottom: none; text-align: left;">Types of Newspaper Ads We Offer</h3>
+    <div class="benefit-cards">
+
+      <div class="benefit-card">
+        <img src="assets/images/service cards/generaldis.jpeg" loading="lazy" alt="General Display Ad" class="img-fluid bg-img-services">
+        <h3>General Display Ad</h3>
+        <p>Color image-based ad printed at your preferred size in square centimeters.</p>
+      </div>
+
+      <div class="benefit-card">
+        <img src="assets/images/service cards/singlecol.jpeg" loading="lazy" alt="Single Column Ad" class="img-fluid bg-img-services">
+        <h3>Single Column Ad</h3>
+        <p>Color image ad placed in the classified section using a single column layout.</p>
+      </div>
+
+      <div class="benefit-card">
+        <img src="assets/images/service cards/doublecol.jpeg" loading="lazy" alt="Double Column Ad" class="img-fluid bg-img-services">
+        <h3>Double Column Ad</h3>
+        <p>Color ad in classified section using two columns for better visual impact.</p>
+      </div>
+
+      <div class="benefit-card">
+        <img src="assets/images/service cards/line ads.jpeg" loading="lazy" alt="Line Ad" class="img-fluid bg-img-services">
+        <h3>Line Ad</h3>
+        <p>Simple text ad priced by line count, suitable for classifieds and personal notices.</p>
+      </div>
+
+      <div class="benefit-card">
+        <img src="assets/images/service cards/classified.jpeg" loading="lazy" alt="Classified Display Ad" class="img-fluid bg-img-services">
+        <h3>Classified Display Ad</h3>
+        <p>Image ad placed in the classified section, customizable to your preferred size.</p>
+      </div>
+
+      <div class="benefit-card">
+        <img src="assets/images/service cards/classifiedline ads.jpeg" loading="lazy" alt="Classified Line Ad" class="img-fluid bg-img-services">
+        <h3>Classified Line Ad</h3>
+        <p>Text-only ad placed in the classified column, charged by the number of lines.</p>
+      </div>
+
+      <div class="benefit-card">
+        <img src="assets/images/service cards/elivationads.jpeg" loading="lazy" alt="Elevation with Content Ad" class="img-fluid bg-img-services">
+        <h3>Elevation with Content Ad</h3>
+        <p>Creative color ad for single column classified sections, with branded visuals and content.</p>
+      </div>
+
+      <div class="benefit-card">
+        <img src="assets/images/service cards/fullpage.jpeg" loading="lazy" alt="Full Page Ad" class="img-fluid bg-img-services">
+        <h3>Full Page Ad</h3>
+        <p>Premium display ad that occupies an entire page—ideal for brand and product campaigns.</p>
+      </div>
+
+    </div>
+  </div>
+  </section>
+ <section id="how-it-works" class="service-about-bg" style="padding: 60px 0;">
+  <div class="container" style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div class="col-md-6">
+      <img src="assets/images/newspaper-service.png" alt="Newspaper Advertising Process" class="img-fluid" loading="lazy" style="max-width: 100%; border-radius: 8px;">
+    </div>
+    <div class="col-md-6" style="padding: 20px;">
+      <h2>How It Works</h2>
+      <ol style="line-height: 1.8;">
+        <li><strong>Select your newspaper & city:</strong> Choose from a wide range of top newspapers and specific city editions based on your audience.</li>
+        <li><strong>Send us your content:</strong> Share your ad text or design along with preferred publication dates and any specifications.</li>
+        <li><strong>Get a preview:</strong> We’ll share a layout proof for your review. You can request edits before final approval.</li>
+        <li><strong>We publish and deliver proof:</strong> Once approved, your ad goes live on the scheduled date and we provide a copy of the published page.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+    
+<section id="why-us" style="padding: 40px 0;" class="service-about-bg">
+  <div class="container">
+    <h2>Benefits of Working With Us</h2>
+    <ul style="line-height: 1.8;">
+      <li><strong>Affordable ad rates across major newspapers:</strong> Get competitive pricing with access to leading English and regional newspapers.</li>
+      <li><strong>Fast and hassle-free ad booking process:</strong> We simplify your experience from start to finish with dedicated support.</li>
+      <li><strong>Dedicated consultants with years of media planning experience:</strong> Our team helps you craft the right message for the right audience at the right time.</li>
+      <li><strong>Support for English, Tamil, and other regional language publications:</strong> We help you connect with your audience in the language they prefer, increasing impact and relevance.</li>
+      <li><strong>Customized ad formats for branding, recruitment, tenders, and more:</strong> Whether you need a bold full-page display or a precise classified line ad, we tailor it to your campaign goals.</li>
+      <li><strong>Transparent service and timely delivery:</strong> You’ll always know what to expect, when to expect it, and receive proof of publication once it’s done.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="faq-bg">
+  <div class="container">
+    <h2>Frequently Asked Questions About Newspaper Advertising in Chennai</h2>
+    <br>
+    <div class="faq-container">
+
+      <div class="faqbtn-div">
+        <button class="faqbtn" type="button" data-toggle="collapse" data-target="#faq1" aria-expanded="false">
+          Which newspapers can I advertise in?
+        </button>
+      </div>
+      <div class="faqcard-div">
+        <div class="collapse" id="faq1">
+          <div class="faq-card">
+            <p>You can choose from leading dailies including The Hindu, Times of India, Dinamalar, Dinathanthi, Deccan Chronicle, and more based on your target location and audience.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faqbtn-div">
+        <button class="faqbtn" type="button" data-toggle="collapse" data-target="#faq2" aria-expanded="false">
+          What type of ads can I publish?
+        </button>
+      </div>
+      <div class="faqcard-div">
+        <div class="collapse" id="faq2">
+          <div class="faq-card">
+            <p>We support all ad types including classified text ads, display ads, display classifieds, and public notice ads. Each format can be tailored to your needs in terms of size and layout.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faqbtn-div">
+        <button class="faqbtn" type="button" data-toggle="collapse" data-target="#faq3" aria-expanded="false">
+          How much does a newspaper ad cost in Chennai?
+        </button>
+      </div>
+      <div class="faqcard-div">
+        <div class="collapse" id="faq3">
+          <div class="faq-card">
+            <p>Ad costs vary depending on the newspaper, size, section, and day of the week. We offer customized packages and special discounts to give you the best value.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faqbtn-div">
+        <button class="faqbtn" type="button" data-toggle="collapse" data-target="#faq4" aria-expanded="false">
+          How early should I book my ad?
+        </button>
+      </div>
+      <div class="faqcard-div">
+        <div class="collapse" id="faq4">
+          <div class="faq-card">
+            <p>We recommend booking your ad at least 2–3 days in advance, especially for high-demand dates like weekends and festival days, to ensure availability and proper placement.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faqbtn-div">
+        <button class="faqbtn" type="button" data-toggle="collapse" data-target="#faq5" aria-expanded="false">
+          Can I advertise in regional language newspapers?
+        </button>
+      </div>
+      <div class="faqcard-div">
+        <div class="collapse" id="faq5">
+          <div class="faq-card">
+            <p>Absolutely. We help place ads in all major Tamil newspapers such as Dinamalar, Dinathanthi, and Maalai Malar, as well as English dailies for broader reach.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="service-about-bg" style="background: linear-gradient(#FAF8FE, #f8f9fa); flex-direction: column;">
+    <h2 style=" text-align: center; font-size: 24px; margin-left: 10px;">Explore Our Other Services</h2>
+    <div class="service-about-bg" style="background: none;">
+            <div class="row">
+                <!-- card1 -->
+                <div class="col-md-4">
+                    <div class="smp">
+                        <img src="assets/images/digital_marketing_hero.jpg" loading="lazy" alt="Digital Marketing" class="img-fluid bg-img-services">
+                        <a href="digital-marketing-agency-chennai.php" class="services-text">Digital Marketing</a>
+                    </div>
+                </div>
+                <!-- card2 -->
+                <div class="col-md-4">
+                    <div class="smp">
+                        <img src="assets/images/no parking sample4.jpg" loading="lazy" alt="No Parking Boards" class="img-fluid bg-img-services">
+                        <a href="noparking-advertisement-agency-in-chennai.php" class="services-text">No Parking Boards</a>
+                    </div>
+                </div>
+                <!-- card3 -->
+                 <div class="col-md-4">
+                <div class="smp">
+                    <img src="assets/images/portfolio/work/work18.jpg" loading="lazy" alt="Bus Advertising" class="img-fluid bg-img-services">
+                    <a href="bus-advertising-in-chennai.php" class="services-text">Bus Advertising</a>
+                </div>
+            </div>
+        </div>
 </section>
 
 <!-- Empty Space for Separation -->
 <div class="empty-space" style="height:150px; background-image: linear-gradient(white,#ccc9e3);"></div>
-
-<!-- Service About Section -->
-<section class="service-about-bg">
-  <h4>Why Newspaper Advertising?</h4>
-  <h2>Chennai Newspaper Advertising – Reach Every Household in the City</h2>
-  <p>Welcome to Baleen Media, your trusted partner for effective <strong>newspaper advertising in Chennai</strong>. We specialize in placing your ads in leading newspapers, ensuring that your brand reaches a wide audience across the city and Tamil Nadu. With our strategic newspaper advertising solutions, we help you connect with potential customers in their homes, workplaces, and daily routines, maximizing your brand’s visibility and impact. Advertising in local newspapers is a time-tested strategy for companies looking to establish trust, increase brand recognition, and build lasting relationships with consumers.</p>
-
-  <h2>Why Choose Newspaper Advertising in Chennai?</h2>
-  <p><strong>Newspaper advertising in Chennai</strong> provides unparalleled reach and credibility. Placing your ads in reputable newspapers captures the attention of a broad audience, including residents, business professionals, and decision-makers. Chennai’s diverse and evolving population offers unique opportunities for businesses that want to make an impression. Whether you’re targeting young professionals, middle-class families, or local entrepreneurs, Chennai’s print media offers something for every business.</p>
-  
-  <h3>Wide Audience Reach</h3>
-  <p>Newspapers in Chennai are read daily by thousands, making them a powerful medium for reaching a diverse and engaged audience. The power of newspapers lies in their broad circulation. Top newspapers like *The Hindu*, *Times of India*, *Dina Thanthi*, and others distribute across key neighborhoods, ensuring your message reaches homes, offices, and shops throughout the city. Whether you're running a local campaign or looking to spread your message across the entire Tamil Nadu region, newspapers can cover extensive areas and demographics.</p>
-  
-  <h3>Credibility and Trust</h3>
-  <p>Newspaper advertising lends credibility to your brand, as readers tend to trust printed news more than other formats. Readers often view print media as a more authoritative source of information. By placing your ad in top Chennai newspapers, your business gains an association with these trusted publications. The perception of reliability and quality associated with these newspapers is transferred to your brand, helping you build trust among your customers.</p>
-  
-  <h3>Targeted Advertising</h3>
-  <p>Customize your ads to reach specific demographics or areas within Chennai, enhancing the effectiveness of your campaigns. Local newspapers offer a variety of editions and regional targeting options, which can be ideal for businesses that need to focus on particular neighborhoods, cities, or even communities within Chennai. Advertising in specialized sections like real estate, education, or healthcare can further fine-tune your targeting strategy, ensuring you reach the most relevant audience.</p>
-
-  <h2>Maximize Your Impact with Leading Chennai Newspapers</h2>
-  <h3>Benefits of Advertising in Chennai's Top Newspapers:</h3>
-  <p>Advertising in top newspapers like *The Hindu*, *Times of India*, *Dina Thanthi*, and other reputable publications provides substantial visibility and helps your brand connect with a local audience. Here’s why Chennai's leading newspapers are the ideal choice for your advertising:</p>
-  
-  <h3>High Readership</h3>
-  <p>Top newspapers in Chennai boast a high readership, allowing your ad to be seen by thousands across the city. With the reach of publications like *The Hindu* and *Times of India*, your advertisement has the potential to reach a large volume of readers. These newspapers are the go-to source of information for a wide audience, from students and professionals to homemakers and retirees. As a result, your brand benefits from extensive exposure that can translate into increased sales and awareness.</p>
-  
-  <h3>Diverse Demographic Reach</h3>
-  <p>Newspapers attract readers of all age groups and professions, helping your brand reach a broad audience. Whether you're targeting young professionals, families, or senior citizens, Chennai’s top newspapers provide a platform that attracts a cross-section of society. From business executives to students, readers in Chennai’s diverse population make newspapers an ideal channel to promote products and services tailored to a variety of lifestyles.</p>
-  
-  <h3>Cost-Effective Marketing</h3>
-  <p>Newspaper advertising is a cost-effective way to increase brand awareness compared to other media channels. Given the competitive pricing and extensive coverage that newspapers offer, this form of advertising allows businesses to achieve high visibility without breaking the bank. Compared to TV, radio, or digital media, print ads are often more affordable while still providing significant reach. This makes newspaper advertising an excellent choice for small businesses with limited marketing budgets looking for high-return campaigns.</p>
-
-  <h2>Different Newspaper Advertising Formats</h2>
-  <p>With a variety of options available, newspaper advertising in Chennai can be customized to fit your specific needs and budget. The flexibility of print media allows businesses to choose from a wide range of formats, from small ads to full-page spreads, ensuring you can find an option that suits your objectives. The key formats include:</p>
-  
-  <h3>Full-Page Ads</h3>
-  <p>A full-page advertisement provides maximum exposure and impact, ideal for promoting significant launches or major campaigns. If you're launching a new product or service, a full-page ad guarantees that your brand gets the attention it deserves. These large ads command a strong presence in the newspaper, making sure your message is noticed and remembered by readers.</p>
-  
-  <h3>Half-Page and Quarter-Page Ads</h3>
-  <p>These are more cost-effective options while still offering substantial visibility, suitable for businesses looking to advertise specific products or services. Half-page and quarter-page ads are ideal for businesses with a smaller marketing budget but still wanting to take advantage of print media’s reach. They offer good value for money and can be highly effective when placed in the right sections of the newspaper.</p>
-  
-  <h3>Classified Ads</h3>
-  <p>For businesses looking to reach a more niche audience or offer services like job postings, property listings, or small offers, classified ads are an affordable option. These ads are typically smaller and placed in the dedicated classified section of the newspaper, allowing businesses to target readers specifically looking for certain services or products.</p>
-  
-  <h3>Insert Ads</h3>
-  <p>Placing ads as inserts in newspapers is another highly effective method to ensure your message gets directly to the reader. These inserts are often handed out with the newspaper or placed inside, ensuring higher attention rates. Many businesses use inserts to provide detailed information, special promotions, or coupons, increasing the likelihood that readers will take immediate action.</p>
-  
-  <h3>Supplementary Sections</h3>
-  <p>Many newspapers offer specialized sections such as real estate, business, lifestyle, and entertainment, providing even more targeted advertising options. These sections attract specific reader segments, allowing your ad to be placed in the most relevant context for maximum effectiveness. If your product or service fits into one of these categories, placing an ad in the corresponding section will ensure it reaches the ideal audience.</p>
-
-  <h2>How Baleen Media Can Help You with Newspaper Advertising in Chennai</h2>
-  <p>As the <strong>best newspaper advertising agency in Chennai</strong>, Baleen Media understands the power of print and the role it plays in your marketing strategy. Our expertise in the field ensures that your ad will reach the right audience at the right time. We offer the following services:</p>
-  
-  <h3>Expert Consultation</h3>
-  <p>We provide expert guidance to help you choose the most appropriate newspapers and advertising formats based on your goals, target audience, and budget. Our team analyzes your business, objectives, and target market to create a tailored advertising strategy that ensures the best results. Whether you're a new startup or an established enterprise, we will work with you to select the right publications for your needs.</p>
-  
-  <h3>Ad Design and Creation</h3>
-  <p>Our team of creative professionals works closely with you to design eye-catching and effective ads that communicate your message clearly and persuasively. We understand the importance of visual appeal and message clarity, and we ensure that every ad we create is optimized for maximum impact. From layout and graphics to the messaging itself, we take care of every detail to ensure your ad stands out.</p>
-  
-  <h3>Strategic Planning</h3>
-  <p>We handle the planning and placement of your ads, ensuring they appear in the right editions and are positioned for maximum visibility. Our team works to ensure that your ad reaches the most relevant readers, at the right time, and in the right format, so your campaign delivers the best return on investment. We are dedicated to maximizing the visibility of your brand in the crowded space of print media.</p>
-  
-  <h3>Comprehensive Reporting</h3>
-  <p>After the campaign is live, we provide comprehensive performance reports that give you valuable insights into the success of your newspaper advertising efforts. With our reports, you can track the reach, engagement, and effectiveness of your ad campaign, helping you make informed decisions for future advertising strategies. Our goal is to ensure that your newspaper ads are delivering tangible results for your business.</p>
-
-  <h2>Reach Your Customers with Print Advertising in Chennai</h2>
-  <p><strong>Print advertising in Chennai</strong> continues to be one of the most reliable ways to reach consumers. Even in the digital age, print media remains a trusted source of information, and advertising in newspapers helps businesses maintain their credibility and trustworthiness. Whether you're looking to promote a new product, announce an event, or raise awareness about your services, <strong>Chennai newspaper ads</strong> provide a platform that can help you achieve your marketing objectives.</p>
-
-  <h2>Contact Baleen Media for the Best Newspaper Advertising in Chennai</h2>
-  <p class="cta">Ready to boost your brand’s visibility? <strong>Contact Baleen Media</strong> today to start your newspaper advertising campaign in Chennai! Our team of experts is here to help you every step of the way in making the most of your newspaper advertising investment.</p>
-  
-  <p>If you’re looking for the <strong>best newspaper advertising agency in Chennai</strong>, look no further. Baleen Media has a proven track record of helping businesses like yours succeed in print advertising across Chennai and Tamil Nadu. We provide effective, targeted campaigns that help you reach your audience and achieve your business goals.</p>
-  
-  <p>Whether you're a small business or a large corporation, our <strong>newspaper advertising services in Chennai</strong> are designed to provide results. Don’t miss the opportunity to leverage this trusted medium for your brand’s growth. Get in touch with us now to start your advertising campaign today!</p>
-</section>
-
-
-<!-- ======================================================service cards -->
-<div class="empty-space" style="height:150px; background-image: linear-gradient(white,#ccc9e3);">
-  <h2 style="font-size: 50px; font-family:Montserrat;  padding:50px 0px;">Types of Ads</h2>
-  </div>
-        <!-- /.container -->
-   
-        <section class="ad-types">
-    <div class="container">  
-        <div class="row ad-cards-container">
-            <div class="ad-card">
-                <img src="assets/images/service cards/generaldis.jpeg" alt="General Display">
-                <div class="ad-card-content">
-                    <h4>General Display</h4>
-                    <p>Image based Color Ad at your desired size (in square centimeter).</p>
-                </div>
-            </div>
-            
-            <div class="ad-card">
-                <img src="assets/images/service cards/singlecol.jpeg" alt="Single Column">
-                <div class="ad-card-content">
-                    <h4>Single Column</h4>
-                    <p>Image based Color Ad in Classified section covering single column.</p>
-                </div>
-            </div>
-
-            <div class="ad-card">
-                <img src="assets/images/service cards/doublecol.jpeg" alt="Double Column">
-                <div class="ad-card-content">
-                    <h4>Double Column</h4>
-                    <p>Image based Color Ad in Classified section covering double columns.</p>
-                </div>
-            </div>
-
-            <div class="ad-card">
-                <img src="assets/images/service cards/line ads.jpeg" alt="Line Ad">
-                <div class="ad-card-content">
-                    <h4>Line Ad</h4>
-                    <p>Text based Ad at your desired number of lines.</p>
-                </div>
-            </div>
-
-            <div class="ad-card">
-                <img src="assets/images/service cards/classified.jpeg" alt="Classified Display">
-                <div class="ad-card-content">
-                    <h4>Classified Display</h4>
-                    <p>Image based Color Ad in Classified section at your desired size.</p>
-                </div>
-            </div>
-
-            <div class="ad-card">
-                <img src="assets/images/service cards/classifiedline ads.jpeg" alt="Classified Line Ad">
-                <div class="ad-card-content">
-                    <h4>Classified Line Ad</h4>
-                    <p>Text based Ad at your desired number of lines.</p>
-                </div>
-            </div>
-
-            <div class="ad-card">
-                <img src="assets/images/service cards/elivationads.jpeg" alt="Elevation with Content">
-                <div class="ad-card-content">
-                    <h4>Elevation with Content Ad</h4>
-                    <p>Image based Color Ad in Classified section covering single column.</p>
-                </div>
-            </div>
-
-            <div class="ad-card">
-                <img src="assets/images/service cards/fullpage.jpeg" alt="full page">
-                <div class="ad-card-content">
-                    <h4>Full Page Ad</h4>
-                    <p>Covers the service about your Product / Services.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!--=========================================================================================== We work with -->
 <section class="We-work-with-bg">

@@ -1,5 +1,5 @@
 <?php
-include('include/top.php');
+include('include/top_noparking.php');
 ?>
 <style>
 	 /* =================================================================================banner css */

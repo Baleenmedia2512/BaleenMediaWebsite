@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="title" content="Effective Newspaper Advertising in Chennai | Top Newspaper Ad Agency">
-<meta name="keywords" content="Newspaper advertising in Chennai, Chennai newspaper ads, best newspaper advertising agency Chennai, print advertising Chennai, Tamil Nadu newspaper ads">
+<meta name="keywords" content="Newspaper advertising in Chennai, Chennai newspaper ads, best newspaper advertising agency Chennai, print advertising Chennai, Tamil Nadu newspaper ads,newspaper advertising agency, local newspaper ads near me, newspaper advertising agency in Chennai, Chennai newspaper ads cost, book newspaper ad Chennai, newspaper advertising services Chennai, Daily Thanthi newspaper ads Chennai, The Hindu newspaper advertising Chennai, Times of India newspaper ads Chennai, affordable newspaper ads in Chennai, top newspaper advertising agency Chennai, regional newspaper ad Chennai">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Increase brand visibility and reach a wide audience with effective newspaper advertising in Chennai. Partner with the best newspaper ad agency in Chennai to showcase your brand in leading newspapers across Tamil Nadu.">
 <meta name="author" content="Baleen Media">
@@ -732,7 +732,8 @@ window.onscroll = function() {
                             <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ads</a>
                             <a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ads</a>
                             <a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ads</a>
-                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Ads</a>
+                            <a href="digital-marketing-agency-chennai.php" class="dropdown-item">Digital Marketing</a>
+                            <a href="bus-advertising-in-chennai" class="dropdown-item">Bus Advertising</a>
                             <a href="mobilevan.php" class="dropdown-item ">Mobile Van Brandings</a>
                             <a href="busshelter.php" class="dropdown-item ">Bus shelter Ads</a>	
                             <a href="hoardings.php" class="dropdown-item ">Hoardings</a>

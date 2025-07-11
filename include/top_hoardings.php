@@ -797,7 +797,8 @@ window.onscroll = function() {
                             <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ads</a>
                             <a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ads</a>
                             <a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ads</a>
-                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Ads</a>
+                            <a href="digital-marketing-agency-chennai.php" class="dropdown-item">Digital Marketing</a>
+                            <a href="bus-advertising-in-chennai" class="dropdown-item">Bus Advertising</a>
                             <a href="mobilevan.php" class="dropdown-item ">Mobile Van Brandings</a>
                             <a href="busshelter.php" class="dropdown-item ">Bus shelter Ads</a>	
                             <a href="hoardings.php" class="dropdown-item ">Hoardings</a>

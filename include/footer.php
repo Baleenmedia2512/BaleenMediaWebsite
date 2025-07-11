@@ -142,12 +142,13 @@ font-size:20px;
 								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;">Newspaper Ads</a></li>
 								<li><a href="newspaper-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Magazine Ads</a></li>
                                 <li><a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;">Paper Inserts</a></li>
+                                <li><a href="digitalmarketing-advertisement-agency-in-chennai.html" class="font-size:15px;">Digital Marketing</a></li>
 								<li><a href="bus-advertisement-agency-in-chennai.php" style="font-size: 15px;">Bus Back Ads</a></li>
 								<li><a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;">NoParking Board</a></li>
 								<li><a href="tv-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Television Ads</a></li>
                                 <li><a href="radio-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Radio Advertisement</a></li>
                                 <li><a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Theatre Ads</a></li>
-                                <li><a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Auto Back Ads</a></li>
+                                <li><a href="auto-advertisement-agency-in-chennai.php" style="font-size: 15px;" >Auto Back Ads</a></li>                             
                             </ul>
                         </div>
                     </div>
@@ -202,7 +203,7 @@ font-size:20px;
 		<a href="radio-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Radio Advertisement, </a>
 		<a href="tv-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Television Ads, </a>
 		<a href="bus-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Bus Back Ads, </a>
-		<a href="digitalmarketing-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Digital Marketing, </a>
+		<a href="digitalmarketing-advertisement-agency-in-chennai.html" style="font-size: 15px;"> Digital Marketing, </a>
 		<a href="noparking-advertisement-agency-in-chennai.php" style="font-size: 15px;"> NoParking Board, </a>
 		<a href="paperinsert-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Paper Inserts, </a> 
 		<a href="theatre-advertisement-agency-in-chennai.php" style="font-size: 15px;"> Theatre Ads, </a>

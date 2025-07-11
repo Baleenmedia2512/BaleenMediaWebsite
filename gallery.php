@@ -1,5 +1,5 @@
 <?php
-include('include/top.php');
+include('include/top_gallery.php');
 ?>
     <!-- breadcrumb -->
     <section class="breadcrumb-banner breadcrumb-bnr-shadow">

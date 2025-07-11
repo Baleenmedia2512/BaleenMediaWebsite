@@ -14,50 +14,55 @@
 </script> -->
 <script type="application/ld+json">
 {
-"@context": "https://schema.org",
-"@type": "Service",
-"serviceType": "Bus Shelter Advertising",
-"provider": {
-"@type": "Organization",
-"name": "Baleen Media",
-"url": “https://baleenmedia.com/busshelter.php",
-"logo": "https://www.baleenmedia.com/assets/images/thumbnail.png", // Replace with actual logo URL
-"sameAs": [
-"https://www.facebook.com/baleenmedia",
-"https://x.com/Baleenmedia2015",
-"https://www.instagram.com/baleen.media/"
-],
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "No.32, Kasthuribai Nagar, 3rd Cross Street",
-"addressLocality": "Adyar",
-"addressRegion": "TN",
-"postalCode": "600020",
-"addressCountry": "IN"
-},
-"contactPoint": {
-"@type": "ContactPoint",
-"telephone": "+91-9566031113",
-"contactType": "Customer Service",
-"areaServed": "IN",
-"availableLanguage": "English"
-}
-},
-"areaServed": "Chennai",
-"offers": {
-"@type": "Offer",
-"priceCurrency": "INR",
-"price": "[Advertising Cost]", // Replace with actual price
-"itemOffered": {
-"@type": "Service",
-"name": "Bus Shelter Advertising",
-"description": “High-visibility hoarding advertisements in Chennai, including lit, non-lit, digital, and
-unipole options for maximum brand reach."
-}
-},
-"description": "Professional bus stop advertising services in Chennai, including bus shelter advertising,
-government bus stand ads, and bus bay advertisements for maximum visibility and impact across the city.
-Ideal for businesses looking to reach daily commuters with strategically placed, high-traffic ads."
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Bus Shelter Advertising",
+  "provider": {
+    "@type": "Organization",
+    "name": "Baleen Media",
+    "url": "https://baleenmedia.com/busshelter.php",
+    "logo": "https://www.baleenmedia.com/assets/images/thumbnail.png",
+    "sameAs": [
+      "https://www.facebook.com/baleenmedia",
+      "https://x.com/Baleenmedia2015",
+      "https://www.instagram.com/baleen.media/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "No.32, Kasthuribai Nagar, 3rd Cross Street",
+      "addressLocality": "Adyar",
+      "addressRegion": "TN",
+      "postalCode": "600020",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9566031113",
+      "contactType": "Customer Service",
+      "areaServed": "IN",
+      "availableLanguage": "English"
+    }
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Chennai",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "TN",
+      "addressCountry": "IN"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "INR",
+    "price": "INSERT_PRICE",  
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Bus Shelter Advertising",
+      "description": "High-visibility hoarding advertisements in Chennai, including lit, non-lit, digital, and unipole options for maximum brand reach."
+    }
+  },
+  "description": "Professional bus stop advertising services in Chennai, including bus shelter advertising, government bus stand ads, and bus bay advertisements for maximum visibility and impact across the city. Ideal for businesses looking to reach daily commuters with strategically placed, high-traffic ads."
 }
 </script>
     <!-- <script type="application/ld+json">
@@ -117,12 +122,9 @@ Ideal for businesses looking to reach daily commuters with strategically placed,
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="title" content="Effective Chennai Bus Stop Advertising | Bus Shelter & Bus Bay Ads">
-    <meta name="keywords" content="Chennai bus stop advertising, Bus shelter Advertising in Chennai, Government Bus stand Advertising, bus bay advertisement in Chennai">
+    <meta name="keywords" content="Chennai bus stop advertising, Bus shelter advertising Chennai, Government bus stand advertising, bus bay advertisement Chennai, transit shelter ads, outdoor advertising Chennai, bus stop branding, commuter advertising, high-impact outdoor ads, Chennai transit advertising, bus stand branding">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Boost your brand visibility with bus stop advertising in Chennai. Reach thousands daily through
-bus shelter ads, government bus stand advertising, and bus bay placements across the city.
-Maximise local engagement and drive traffic to your business with strategic Chennai bus
-advertising.">
+    <meta name="description" content="Boost your brand visibility with bus stop advertising in Chennai. Reach thousands daily through bus shelter ads, government bus stand advertising, and bus bay placements across the city. Maximise local engagement and drive traffic to your business with strategic Chennai bus advertising.">
     <meta name="author" content="Baleen Media">
   <!-- Google Tag Manager -->
   <script>
@@ -797,7 +799,8 @@ window.onscroll = function() {
                             <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ads</a>
                             <a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ads</a>
                             <a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ads</a>
-                            <a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Bus Ads</a>
+                            <a href="digital-marketing-agency-chennai.php" class="dropdown-item">Digital Marketing</a>
+                            <a href="bus-advertising-in-chennai" class="dropdown-item">Bus Advertising</a>
                             <a href="mobilevan.php" class="dropdown-item ">Mobile Van Brandings</a>
                             <a href="busshelter.php" class="dropdown-item ">Bus shelter Ads</a>	
                             <a href="hoardings.php" class="dropdown-item ">Hoardings</a>

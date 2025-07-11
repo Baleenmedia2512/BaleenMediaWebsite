@@ -1,5 +1,5 @@
 <?php
-include('include/top.php');
+include('include/top_contact.php');
 ?>
 <style>
     /* Base styles */
