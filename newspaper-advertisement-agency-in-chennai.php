@@ -6,7 +6,7 @@ include('include/top_newspaper.php');
 <style>
     /* =================================================================================banner css rgba(241, 234, 254, 0.7), rgba(224, 206, 253, 0.7)*/ 
     .service-banner{
-        background: linear-gradient(-45deg, #AA60C8 , #D69ADE, #EABDE6, #FFDFEF, #D17D98);//#8F87F1, #C68EFD, #E9A5F1, #FED2E2);//#F6B2E1, #F1EAFEB3, #E0CEFDB3, #F7E1FF, #EFD9F9, #DCC8F5, #C6B3F0, #58126A);
+        background: linear-gradient(-45deg, #AA60C8 , #D69ADE, #EABDE6, #FFDFEF, #D17D98);
         background-size: 400% 400%;
         animation: gradient 15s ease infinite;
         background-position: center;
@@ -880,6 +880,35 @@ html {
 		   </section>		
 		</div>
     </section>
+    <section class="service-bg" id="specific-newspaper-booking">
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 30px;">Book Ads in Top Newspapers: Times of India & Daily Thanthi</h2>
+
+        <div class="row" style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px;">
+            <div class="col-md-6" style="padding-right: 20px;">
+                <h3>Times of India Ad Booking Made Easy</h3>
+                <p>Looking to book an ad in Times of India? Our platform simplifies the entire process. Whether you need to publish a matrimonial, property, recruitment, or public notice ad, we offer seamless **Times of India advertisement booking**. You can quickly find competitive **Times of India ad rates** for various categories and editions. Our intuitive interface allows you to complete your **Times of India ad booking online** from the comfort of your home or office. Don't waste time with complicated procedures; let us help you **post an ad in Times of India** efficiently and effectively.</p>
+                <a href="/times-of-india-ad-rates" class="btn primary-btn" style="margin-top: 15px;">View Times of India Ad Rates & Book Online</a>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/times-of-india-newspaper.png" alt="Times of India Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+
+        <div class="row" style="display: flex; flex-wrap: wrap; align-items: flex-start; flex-direction: row-reverse;">
+            <div class="col-md-6" style="padding-left: 20px;">
+                <h3>Daily Thanthi Advertisement Booking for Tamil Audience</h3>
+                <p>Reach the heart of the Tamil-speaking population with **Daily Thanthi advertisement booking**. We make it incredibly easy to **book an ad in Daily Thanthi**, offering transparent **Daily Thanthi ad rates** for classifieds and display advertisements. Our **Daily Thanthi online ad booking** system is designed for your convenience, ensuring your message is published accurately and on time. From personal announcements to large-scale marketing campaigns, we're your trusted partner to **post an ad in Daily Thanthi** and connect with millions of readers across Tamil Nadu, including Chennai.</p>
+                <a href="/daily-thanthi-ad-rates" class="btn primary-btn" style="margin-top: 15px;">Check Daily Thanthi Ad Rates & Book Now</a>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/daily-thanthi-newspaper.png" alt="Daily Thanthi Online Ad Booking Chennai" class="img-fluid" loading="lazy" style="max-width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 40px; font-size: 1.1em;">No matter your advertising needs, we simplify the process for both **Times of India ad booking online** and **Daily Thanthi online ad booking**, ensuring your ad reaches its intended audience effectively.</p>
+    </div>
+</section>
 </section>
 
 <?php
