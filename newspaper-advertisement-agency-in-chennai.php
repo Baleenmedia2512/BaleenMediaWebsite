@@ -328,18 +328,7 @@ html {
 }
 
 /* Responsive tweaks */
-@media (max-width: 600px) {
-  #benefits h2 {
-    font-size: 28px;
-    max-with: 100%;
-  }
-  .benefit-card h3 {
-    font-size: 18px;
-  }
-  .benefit-card p {
-    font-size: 14px;
-  }
-}
+
 
     /* Base animation styles */
     .fade-in-up {
