@@ -61,15 +61,7 @@ include('include/top_newspaper.php');
     padding-bottom:10px;
     margin-bottom:20px;
 }
-.service-banner h1{
-    font-family: "poppins", sans-serif;
-    text-align:left;
-    font-size: 30px;
-    font-weight:600;
-    border-bottom:2px solid black;
-    padding-bottom:10px;
-    margin-bottom:20px;
-}
+
 .service-banner p{
     font-size:16px;
     font-weight:bold;
@@ -133,18 +125,7 @@ include('include/top_newspaper.php');
 	padding-bottom:20px;
 }
 
-.service-about-bg h2{
-    font-family: "poppins", sans-serif;
-    margin: 10px 10px;
-    text-align: center;
-    font-size: 24px;
-    font-weight:600;
-    border-bottom:2px solid #5C2594;
-    padding-bottom:10px;
-    margin-bottom:20px;
-    text-align: left;
-    color: #5C2594;
-}
+
 
 .service-about-bg h3{
     font-family: "poppins", sans-serif;
@@ -621,7 +602,7 @@ html {
     <div class="row1">
       <div class="col-md-6">
         <h1>Newspaper Advertising</h1>
-        <h2>Your Ad in Every Home</h2>
+        
         <p>Reach your audience through the trusted pages of top newspapers and magazines—where attention is focused, credibility is high, and your message stands out. Whether you're promoting an event, product, or public announcement, print media ensures it lands directly in the hands of engaged readers.</p>
         <div class="cta-buttons">
             <a href="/ContactUs" class="btn primary-btn">Get a Quote</a>
@@ -881,7 +862,7 @@ html {
     </section>
     <section class="service-bg" id="specific-newspaper-booking">
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 30px;">Book Ads in Top Newspapers: Times of India, Daily Thanthi, Makkal Kural, Trinity Mirror</h2>
+        <h2 style="text-align: center; margin-bottom: 30px; margin-top: 30px;">Book Ads in Top Newspapers: Times of India, Daily Thanthi, Makkal Kural, Trinity Mirror</h2>
 
         <div class="row" style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px;">
             <div class="col-md-6" style="padding-right: 20px;">
@@ -890,7 +871,7 @@ html {
                 <a href="/times-of-india-ad-rates" class="btn primary-btn" style="margin-top: 15px;">View Times of India Ad Rates & Book Online</a>
             </div>
             <div class="col-md-6">
-                <img src="assets/images/times-of-india-newspaper.png" alt="Times of India Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 100%; border-radius: 8px;">
+                <img src="assets/images/times-of-india-newspaper.png" alt="Times of India Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">
             </div>
         </div>
 
@@ -901,7 +882,7 @@ html {
                 <a href="/daily-thanthi-ad-rates" class="btn primary-btn" style="margin-top: 15px;">Check Daily Thanthi Ad Rates & Book Now</a>
             </div>
             <div class="col-md-6">
-                <img src="assets/images/daily-thanthi-newspaper.png" alt="Daily Thanthi Online Ad Booking Chennai" class="img-fluid" loading="lazy" style="max-width: 100%; border-radius: 8px;">
+                <img src="assets/images/daily-thanthi-newspaper.png" alt="Daily Thanthi Online Ad Booking Chennai" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">
             </div>
         </div>
 
@@ -912,22 +893,22 @@ html {
                 <a href="/makkal-kural-ad-rates" class="btn primary-btn" style="margin-top: 15px;">View Makkal Kural Ad Rates & Book Online</a>
             </div>
             <div class="col-md-6">
-                <img src="assets/images/makkal-kural-newspaper.png" alt="Makkal Kural Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 100%; border-radius: 8px;">
+                <img src="assets/images/makkal-kural-newspaper.png" alt="Makkal Kural Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">
             </div>
         </div>
 
         <div class="row" style="display: flex; flex-wrap: wrap; align-items: flex-start; flex-direction: row-reverse; margin-bottom: 40px;">
             <div class="col-md-6" style="padding-left: 20px;">
                 <h3>Trinity Mirror Advertisement Booking - Premium Newspaper Advertising</h3>
-                <p>Elevate your brand visibility with **Trinity Mirror advertisement booking**. Our platform provides transparent **Trinity Mirror ad rates** for all types of advertisements, making it simple to **book ad in Trinity Mirror**. From corporate announcements to personal notices, our **Trinity Mirror newspaper ad** booking service caters to diverse advertising needs. Trust our streamlined process to **post ad in Trinity Mirror** and ensure your message reaches a sophisticated readership with maximum impact and professional presentation.</p>
+                <p>Elevate your brand visibility with Trinity Mirror advertisement booking. Our platform provides transparent Trinity Mirror ad rates for all types of advertisements, making it simple to book ad in Trinity Mirror. From corporate announcements to personal notices, our Trinity Mirror newspaper ad booking service caters to diverse advertising needs. Trust our streamlined process to post ad in Trinity Mirror and ensure your message reaches a sophisticated readership with maximum impact and professional presentation.</p>
                 <a href="/trinity-mirror-ad-rates" class="btn primary-btn" style="margin-top: 15px;">Check Trinity Mirror Ad Rates & Book Now</a>
             </div>
             <div class="col-md-6">
-                <img src="assets/images/trinity-mirror-newspaper.png" alt="Trinity Mirror Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 100%; border-radius: 8px;">
+                <img src="assets/images/trinity-mirror-newspaper.png" alt="Trinity Mirror Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">
             </div>
         </div>
 
-        <p style="text-align: center; margin-top: 40px; font-size: 1.1em;">No matter your advertising needs, we simplify the process for **Times of India ad booking online**, **Daily Thanthi online ad booking**, **Makkal Kural newspaper ad** placement, and **Trinity Mirror advertisement booking**, ensuring your ad reaches its intended audience effectively across all major publications.</p>
+        <p style="text-align: center; margin-top: 40px; font-size: 1.5rem;">No matter your advertising needs, we simplify the process for Times of India ad booking online, Daily Thanthi online ad booking, Makkal Kural newspaper ad placement, and Trinity Mirror advertisement booking, ensuring your ad reaches its intended audience effectively across all major publications.</p>
     </div>
 </section>
 </section>
