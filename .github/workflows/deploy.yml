@@ -21,4 +21,11 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: '/'
           local-dir: './'
-          exclude: '.git,.github,tests,node_modules,package-lock.json,composer.lock,composer.json' 
+          exclude: |
+            .git
+            .github
+            tests
+            node_modules
+            package-lock.json
+            composer.lock
+            composer.json
