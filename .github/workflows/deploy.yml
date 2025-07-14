@@ -14,14 +14,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Upload via FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: '/home/baleeed5/domains/baleenmedia.com/public_html/'
+          server-dir: '/home/baleecd5/public_html'
           local-dir: './'
-          exclude: |
-            **/.git*
-            **/.github*
-            **/node_modules/**
+          exclude: '.git,.github,tests,node_modules,package-lock.json,composer.lock,composer.json' 
