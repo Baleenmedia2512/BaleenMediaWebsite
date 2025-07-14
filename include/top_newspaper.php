@@ -102,7 +102,540 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<style>
 		
-		h2{
+/* Professional Navbar Styling */
+.navbar {
+    background: linear-gradient(135deg, #F1EAFF 0%, #E8D5FF 100%) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0.8rem 0;
+    z-index: 1000;
+}
+
+/* Navbar on scroll effect */
+.navbar.scrolled {
+    padding: 0.5rem 0;
+    background: rgba(241, 234, 255, 0.95) !important;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo styling */
+.custom-logo {
+    height: 45px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.custom-logo:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation links container */
+.navbar-nav {
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Individual menu items */
+.menu-item {
+    position: relative;
+    margin: 0 0.3rem;
+}
+
+/* Navigation links */
+.nav-link {
+    color: #4A5568 !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.8rem 1.2rem !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+/* Hover effect for nav links */
+.nav-link:hover {
+    color: #6B46C1 !important;
+    background: rgba(255, 255, 255, 0.7);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(107, 70, 193, 0.2);
+}
+
+/* Active link styling */
+.nav-link.active {
+    color: #6B46C1 !important;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 10px rgba(107, 70, 193, 0.15);
+}
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    border: none;
+    content: "▼";
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-toggle::after {
+    transform: rotate(180deg);
+}
+
+/* Enhanced Mega Menu Styling */
+.dropdown-menu {
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.12), 0 10px 25px rgba(0, 0, 0, 0.06);
+    padding: 2.5rem;
+    margin-top: 0.8rem;
+    min-width: 900px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-15px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Mega Menu Grid Layout */
+.mega-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    max-width: 100%;
+}
+
+/* Mega Menu Categories */
+.mega-menu-category {
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.mega-menu-category h4 {
+    color: #6B46C1;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid rgba(107, 70, 193, 0.15);
+    position: relative;
+    letter-spacing: 0.5px;
+}
+
+.mega-menu-category h4:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(90deg, #6B46C1, #9F7AEA);
+    border-radius: 3px;
+}
+
+/* Mega Menu Items */
+.mega-menu-item {
+    color: #4A5568;
+    padding: 1rem 0 1rem 1.5rem;
+    font-size: 0.96rem;
+    font-weight: 500;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    border-left: 3px solid transparent;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    margin: 0.3rem 0;
+    border-radius: 10px;
+    line-height: 1.4;
+}
+
+.mega-menu-item:hover {
+    background: linear-gradient(90deg, rgba(107, 70, 193, 0.08), rgba(159, 122, 234, 0.04));
+    color: #6B46C1;
+    border-left-color: #6B46C1;
+    transform: translateX(12px);
+    text-decoration: none;
+    box-shadow: 0 3px 15px rgba(107, 70, 193, 0.1);
+}
+
+.mega-menu-item:before {
+    content: '→';
+    position: absolute;
+    left: 0.5rem;
+    opacity: 0;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    color: #6B46C1;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.mega-menu-item:hover:before {
+    opacity: 1;
+    transform: translateX(8px);
+}
+
+/* Enhanced Mega Menu Divider */
+.mega-menu-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(107, 70, 193, 0.2), transparent);
+    margin: 2rem 0;
+    width: 100%;
+    position: relative;
+}
+
+.mega-menu-divider:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    background: linear-gradient(45deg, #6B46C1, #9F7AEA);
+    border-radius: 50%;
+}
+
+/* Call-to-Action Section */
+.mega-menu-cta {
+    background: linear-gradient(135deg, rgba(107, 70, 193, 0.08), rgba(159, 122, 234, 0.06));
+    border: 1px solid rgba(107, 70, 193, 0.15);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.mega-menu-cta:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #6B46C1, #9F7AEA);
+}
+
+.mega-menu-cta h6 {
+    color: #6B46C1;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    letter-spacing: 0.3px;
+}
+
+.mega-menu-cta p {
+    color: #4A5568;
+    font-size: 0.88rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.mega-menu-cta a {
+    color: #6B46C1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #6B46C1;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.mega-menu-cta a:hover {
+    background: #6B46C1;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(107, 70, 193, 0.3);
+    text-decoration: none;
+}
+
+/* Service count indicator */
+.mega-menu-category:after {
+    content: attr(data-count);
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    background: linear-gradient(45deg, #6B46C1, #9F7AEA);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.3rem 0.6rem;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+/* Mobile hamburger button */
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.3);
+}
+
+/* Hamburger icon styling */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2874, 85, 104, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Container adjustments */
+.container {
+    max-width: 1200px;
+    position: relative;
+}
+
+/* Responsive Mega Menu */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        margin-top: 1rem;
+        border-radius: 12px;
+        padding: 1rem;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    .navbar-nav {
+        gap: 0;
+    }
+    
+    .nav-link {
+        padding: 0.8rem 1rem !important;
+        margin: 0.2rem 0;
+        border-radius: 6px;
+    }
+    
+    /* Mobile Mega Menu */
+    .dropdown-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.1);
+        background: rgba(247, 250, 252, 0.8);
+        margin: 0.5rem 0;
+        display: none;
+        min-width: 100%;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+    
+    .dropdown-menu.show {
+        display: block;
+    }
+    
+    /* Mobile Mega Menu Grid - Stack vertically */
+    .mega-menu-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .mega-menu-category h4 {
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .mega-menu-item {
+        padding: 0.6rem 0;
+        font-size: 0.9rem;
+    }
+    
+    .mega-menu-featured {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .mega-menu-featured h5 {
+        font-size: 0.9rem;
+    }
+    
+    .mega-menu-featured p {
+        font-size: 0.8rem;
+    }
+    
+    .mega-menu-contact {
+        padding: 0.8rem;
+    }
+    
+    .custom-logo {
+        height: 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* Tablet and mobile adjustments */
+    .dropdown-menu {
+        min-width: 600px;
+        left: 50%;
+        transform: translateX(-50%) translateY(-10px);
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        transform: translateX(-50%) translateY(0);
+    }
+    
+    .mega-menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* Small mobile screens */
+    .dropdown-menu {
+        min-width: 90vw;
+        left: 5vw;
+        transform: translateX(0) translateY(-10px);
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        transform: translateX(0) translateY(0);
+    }
+    
+    .mega-menu-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .mega-menu-featured {
+        padding: 0.8rem;
+    }
+    
+    .navbar {
+        padding: 0.6rem 0;
+    }
+    
+    .custom-logo {
+        height: 35px;
+    }
+    
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    
+    .mega-menu-item {
+        font-size: 0.85rem;
+    }
+}
+
+/* Animation for mobile menu */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar-collapse.show {
+    animation: slideDown 0.3s ease-out;
+}
+
+/* Accessibility improvements */
+.nav-link:focus,
+.dropdown-item:focus {
+    outline: 2px solid #6B46C1;
+    outline-offset: 2px;
+}
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Additional professional touches */
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #6B46C1, #9F7AEA, #6B46C1);
+    opacity: 0.6;
+}
+
+/* Loading state for navigation */
+.nav-link.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* Brand hover effect */
+.custom-logo-link:hover .custom-logo {
+    filter: brightness(1.1);
+}
+
+/* Subtle animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .navbar {
+        background: #ffffff !important;
+        border-bottom: 2px solid #000000;
+    }
+    
+    .nav-link {
+        color: #000000 !important;
+    }
+    
+    .nav-link:hover {
+        background: #f0f0f0 !important;
+    }
+}
+	</style>
+
+<style>
+  h2{
 		  text-align:center;
 		  padding: 20px;
 		}
@@ -222,17 +755,9 @@
 		.slick-arrow.slick-hidden {
 			display: none;
 		}
-		.baleen-logo h1 {
-			font-family: GlovinTribe;
-			font-size: 40px;
-			color: #e06099;
-		}
-		.baleen-logo span{
-			
-			font-size: 40px;
-			color: #0097d0;
-		}
-	</style>
+		
+</style>
+
 	<style>
 		.fa-spin-hover:hover {			   
 			   color: red;
@@ -726,28 +1251,54 @@ window.onscroll = function() {
                     <li class="menu-item ">
                         <a href="about.php" class="nav-link">About Us</a>
                     </li>
-                    <!-- Dropdown -->
-                    <li class="menu-item dropdown" >                         
-						<a class="nav-link dropdown-toggle" href="#" onclick="myFunction()" >Services</a>
-                        <div class="dropdown-menu" id="service">
-                            <a href="newspaper-advertisement-agency-in-chennai.php" class="dropdown-item ">Newspaper and Magazine Ads</a>
-                            <a href="tv-advertisement-agency-in-chennai.php" class="dropdown-item ">Television Ads</a>
-                            <a href="radio-advertisement-agency-in-chennai.php" class="dropdown-item ">Radio Ads</a>
-                            <a href="digital-marketing-agency-chennai.php" class="dropdown-item">Digital Marketing</a>
-                            <a href="bus-advertising-in-chennai" class="dropdown-item">Bus Advertising</a>
-                            <a href="mobilevan.php" class="dropdown-item ">Mobile Van Brandings</a>
-                            <a href="busshelter.php" class="dropdown-item ">Bus shelter Ads</a>	
-                            <a href="hoardings.php" class="dropdown-item ">Hoardings</a>
-                            <div style="height: 1px; background-color:rgb(0, 0, 0); "></div>
-                            <a href="trafficalert.php" class="dropdown-item ">Traffic Alert</a>
-							<a href="paperinsert-advertisement-agency-in-chennai.php" class="dropdown-item ">Paper Insert</a>  
-							<a href="noparking-advertisement-agency-in-chennai.php" class="dropdown-item ">NoParking Board</a>																			
-							<a href="bus-advertisement-agency-in-chennai.php" class="dropdown-item ">Auto Rickshaw Ads</a>
-                            <a href="appartment.php" class="dropdown-item ">Appartment Screening</a>	
-                            <a href="" class="dropdown-item ">Theatre Ads</a>						
-                        </div>
-                    </li>
-                    <!-- Dropdown -->
+                   <!-- Enhanced Services Mega Menu HTML Structure -->
+<li class="menu-item dropdown">                         
+    <a class="nav-link dropdown-toggle" href="#" onclick="myFunction()">Services</a>
+    <div class="dropdown-menu" id="service">
+        <div class="mega-menu-grid">
+            <!-- Traditional Media Column -->
+            <div class="mega-menu-category" data-count="6">
+                <h4>Traditional Media</h4>
+                <a href="newspaper-advertisement-agency-in-chennai.php" class="mega-menu-item">Newspaper & Magazine Ads</a>
+                <a href="tv-advertisement-agency-in-chennai.php" class="mega-menu-item">Television Advertising</a>
+                <a href="radio-advertisement-agency-in-chennai.php" class="mega-menu-item">Radio Advertising</a>
+                <a href="" class="mega-menu-item">Theatre Advertising</a>
+                
+                <div class="mega-menu-divider"></div>
+                
+                <a href="paperinsert-advertisement-agency-in-chennai.php" class="mega-menu-item">Paper Insert Ads</a>
+                <a href="trafficalert.php" class="mega-menu-item">Traffic Alert Boards</a>
+            </div>
+            
+            <!-- Outdoor & Transit Column -->
+            <div class="mega-menu-category" data-count="7">
+                <h4>Outdoor & Transit</h4>
+                <a href="bus-advertising-in-chennai" class="mega-menu-item">Bus Advertising</a>
+                <a href="bus-advertisement-agency-in-chennai.php" class="mega-menu-item">Auto Rickshaw Ads</a>
+                <a href="mobilevan.php" class="mega-menu-item">Mobile Van Branding</a>
+                <a href="busshelter.php" class="mega-menu-item">Bus Shelter Ads</a>
+                <a href="hoardings.php" class="mega-menu-item">Hoardings & Billboards</a>
+                <a href="noparking-advertisement-agency-in-chennai.php" class="mega-menu-item">No Parking Boards</a>
+                <a href="appartment.php" class="mega-menu-item">Apartment Screening</a>
+            </div>
+            
+            <!-- Digital Marketing Column -->
+            <div class="mega-menu-category" data-count="1">
+                <h4>Digital Marketing</h4>
+                <a href="digital-marketing-agency-chennai.php" class="mega-menu-item">Complete Digital Marketing</a>
+                
+                <div class="mega-menu-divider"></div>
+                
+                <!-- Call-to-Action Section -->
+                <div class="mega-menu-cta">
+                    <h6>Ready to Get Started?</h6>
+                    <p>Let's discuss the perfect advertising strategy for your business needs.</p>
+                    <a href="contact.php">Get Free Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
                     <li class="menu-item">
                         <a class="nav-link" href="portfolio.php">PortFolio</a>                        
                     </li>                    
