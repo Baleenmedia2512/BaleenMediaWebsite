@@ -1,5 +1,4 @@
-
-name: Deploy to FTP/SFTP Direct Admin
+name: Deploy to FTP
 
 on:
   push:
@@ -7,36 +6,22 @@ on:
       - main
 
 jobs:
-
-
-  deploy:
+  ftp-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Fetch latest changes
-      run: git fetch origin main
-
-    # - name: Determine changed files
-    #   id: changed_files
-    #   run: |
-    #     git diff --name-only origin/main HEAD > changed_files.txt || echo "No changes"
-
-    # - name: Upload changed files via FTP/SFTP
-    #   run: |
-    #     cat changed_files.txt | xargs -I {} sh -c 'mkdir -p $(dirname {}) && curl -T {} -u ${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_SERVER }}/test_laravel/{}'
-
-    # - name: Cleanup
-    #   run: rm changed_files.txt
-
-    - name: Deploy via FTP/SFTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: '/'
-        local-dir: './'
-        exclude: '.git,.github,tests'
+      - name: Upload via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: '/public_html/'
+          local-dir: './'
+          exclude: |
+            **/.git*
+            **/.github*
+            **/node_modules/**
