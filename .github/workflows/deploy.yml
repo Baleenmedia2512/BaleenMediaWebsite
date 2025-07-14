@@ -19,6 +19,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: '/home/baleecd5/public_html'
+          server-dir: '/home/baleecd5/public_html/'
           local-dir: './'
           exclude: '.git,.github,tests,node_modules,package-lock.json,composer.lock,composer.json' 
