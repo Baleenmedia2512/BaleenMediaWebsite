@@ -61,6 +61,15 @@ include('include/top_newspaper.php');
     padding-bottom:10px;
     margin-bottom:20px;
 }
+.service-banner h1{
+    font-family: "poppins", sans-serif;
+    text-align:left;
+    font-size: 30px;
+    font-weight:600;
+    border-bottom:2px solid black;
+    padding-bottom:10px;
+    margin-bottom:20px;
+}
 .service-banner p{
     font-size:16px;
     font-weight:bold;
@@ -611,7 +620,8 @@ html {
   <div class="container">
     <div class="row1">
       <div class="col-md-6">
-        <h1>Your Ad in Every Home</h1>
+        <h1>Newspaper Advertising</h1>
+        <h2>Your Ad in Every Home</h2>
         <p>Reach your audience through the trusted pages of top newspapers and magazines—where attention is focused, credibility is high, and your message stands out. Whether you're promoting an event, product, or public announcement, print media ensures it lands directly in the hands of engaged readers.</p>
         <div class="cta-buttons">
             <a href="/ContactUs" class="btn primary-btn">Get a Quote</a>
