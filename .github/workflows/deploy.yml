@@ -36,6 +36,6 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: '/home/baleeed5/domains/website.baleenmedia.com/public_html/'
+        server-dir: '/domains/website.baleenmedia.com/public_html/'
         local-dir: './'
         exclude: '.git,.github,tests'
