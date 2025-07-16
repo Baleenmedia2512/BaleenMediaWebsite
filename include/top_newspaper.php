@@ -1290,11 +1290,7 @@ window.onscroll = function() {
                 <div class="mega-menu-divider"></div>
                 
                 <!-- Call-to-Action Section -->
-                <div class="mega-menu-cta">
-                    <h6>Ready to Get Started?</h6>
-                    <p>Let's discuss the perfect advertising strategy for your business needs.</p>
-                    <a href="contact.php">Get Free Quote</a>
-                </div>
+                
             </div>
         </div>
     </div>

@@ -873,7 +873,7 @@ html {
             <div class="col-md-6" style="padding-right: 20px;">
                 <h3>Times of India Ad Booking Made Easy</h3>
                 <p>Looking to book ad in Times of India? Our platform simplifies the entire process for Times of India newspaper advertising. Whether you need to publish a matrimonial, property, recruitment, or public notice ad, we offer seamless Times of India advertisement booking. You can quickly find competitive Times of India ad rates for various categories and editions. Our intuitive interface allows you to complete your Times of India ad booking online from the comfort of your home or office. Don't waste time with complicated procedures; let us help you post ad in Times of India efficiently and effectively.</p>
-                <a href="/times-of-india-ad-rates" class="btn primary-btn" style="margin-top: 15px;">View Times of India Ad Rates & Book Online</a>
+                <a href="" class="btn primary-btn" style="margin-top: 15px;">View Times of India Ad Rates & Book Online</a>
             </div>
             <div class="col-md-6">
                 <img src="assets/images/times-of-india-newspaper.png" alt="Times of India Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">
@@ -884,7 +884,7 @@ html {
             <div class="col-md-6" style="padding-left: 20px;">
                 <h3>Daily Thanthi Advertisement Booking for Tamil Audience</h3>
                 <p>Reach the heart of the Tamil-speaking population with Daily Thanthi advertisement booking. We make it incredibly easy to book ad in Daily Thanthi, offering transparent Daily Thanthi ad rates for classifieds and display advertisements. Our Daily Thanthi online ad booking system is designed for your convenience, ensuring your message is published accurately and on time. From personal announcements to large-scale marketing campaigns, we're your trusted partner to post ad in Daily Thanthi and advertise in Daily Thanthi to connect with millions of readers across Tamil Nadu, including Chennai.</p>
-                <a href="/daily-thanthi-ad-rates" class="btn primary-btn" style="margin-top: 15px;">Check Daily Thanthi Ad Rates & Book Now</a>
+                <a href="" class="btn primary-btn" style="margin-top: 15px;">Check Daily Thanthi Ad Rates & Book Now</a>
             </div>
             <div class="col-md-6">
                 <img src="assets/images/daily-thanthi-newspaper.png" alt="Daily Thanthi Online Ad Booking Chennai" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">
@@ -895,7 +895,7 @@ html {
             <div class="col-md-6" style="padding-right: 20px;">
                 <h3>Makkal Kural Advertisement Booking - Connect with Tamil Readers</h3>
                 <p>Expand your reach with Makkal Kural advertisement booking and connect directly with Tamil audiences. Our platform offers competitive Makkal Kural ad rates for various advertising needs, from personal announcements to business promotions. You can easily book ad in Makkal Kural through our user-friendly online system. Whether you're looking to post ad in Makkal Kural for matrimonial purposes, property listings, or commercial advertisements, our Makkal Kural newspaper ad booking service ensures your message reaches the right audience at the right time.</p>
-                <a href="/makkal-kural-ad-rates" class="btn primary-btn" style="margin-top: 15px;">View Makkal Kural Ad Rates & Book Online</a>
+                <a href="" class="btn primary-btn" style="margin-top: 15px;">View Makkal Kural Ad Rates & Book Online</a>
             </div>
             <div class="col-md-6">
                 <img src="assets/images/makkal-kural-newspaper.png" alt="Makkal Kural Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">
@@ -906,7 +906,7 @@ html {
             <div class="col-md-6" style="padding-left: 20px;">
                 <h3>Trinity Mirror Advertisement Booking - Premium Newspaper Advertising</h3>
                 <p>Elevate your brand visibility with Trinity Mirror advertisement booking. Our platform provides transparent Trinity Mirror ad rates for all types of advertisements, making it simple to book ad in Trinity Mirror. From corporate announcements to personal notices, our Trinity Mirror newspaper ad booking service caters to diverse advertising needs. Trust our streamlined process to post ad in Trinity Mirror and ensure your message reaches a sophisticated readership with maximum impact and professional presentation.</p>
-                <a href="/trinity-mirror-ad-rates" class="btn primary-btn" style="margin-top: 15px;">Check Trinity Mirror Ad Rates & Book Now</a>
+                <a href="" class="btn primary-btn" style="margin-top: 15px;">Check Trinity Mirror Ad Rates & Book Now</a>
             </div>
             <div class="col-md-6">
                 <img src="assets/images/trinity-mirror-newspaper.png" alt="Trinity Mirror Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">

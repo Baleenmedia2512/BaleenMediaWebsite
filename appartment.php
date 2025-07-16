@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Apartment Screen Advertising in Chennai | Elevator & Lobby Ads | Baleen Media";
 $pageDescription = "Boost brand visibility with targeted apartment screen advertising in Chennai. Digital branding solutions for gated communities in OMR, Velachery & Tambaram.";
-include('include/top.php');
+include('include/top_apartment.php');
 ?>
 <style>
 /* ========= Container & Text Classes ========= */
