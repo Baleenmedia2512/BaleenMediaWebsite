@@ -1,5 +1,5 @@
 <?php
-include('include/top_newspaper.php');
+include('include/top_times.php');
 ?>
 
 <!-- Meta tags for SEO -->
@@ -445,7 +445,7 @@ include('include/top_newspaper.php');
             <li class="list-item">Brand & Product Launches</li>
         </ul>
     </div>
-</section>
+</section> 
 
     <section class="service-bg">
         <div class="container">
