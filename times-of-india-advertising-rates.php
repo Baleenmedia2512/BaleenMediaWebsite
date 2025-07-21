@@ -2,10 +2,7 @@
 include('include/top_times.php');
 ?>
 
-<!-- Meta tags for SEO -->
-<meta name="description" content="Get current Times of India advertising rates 2025. Book newspaper ads in Times of India Chennai edition. Expert assistance for classified, display & digital ads at best rates.">
-<meta name="keywords" content="Times of India ad rates, Times of India advertisement booking, book ad in Times of India, post ad in Times of India, Times of India newspaper advertising, TOI ad rates Chennai, Times of India classified ad rates">
-<link rel="stylesheet" href="assets/css/style.css">
+
 
 <style>
     /* Modern styling for Times of India ad rates page */
@@ -36,7 +33,7 @@ include('include/top_times.php');
         background-size: 400% 400%;
         animation: gradient 15s ease infinite;
         background-position: center;
-        padding: 60px 0 30px;
+        padding-top: 60px;
         border: 0;
         position: relative;
         overflow: hidden;
@@ -280,7 +277,7 @@ include('include/top_times.php');
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="assets/images/service cards/toi-newspaper.png" alt="Times of India Newspaper Chennai Edition" class="img-fluid" loading="lazy">
+                <img src="assets/images/India best news.jpeg" alt="Times of India Newspaper Chennai Edition" class="img-fluid" loading="lazy"style="max-width:100%; border-radius: 8px;">
             </div>
         </div>
     </div>

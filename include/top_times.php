@@ -75,7 +75,7 @@
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   <link rel="dns-prefetch" href="https://maxcdn.bootstrapcdn.com">
 <!-- Site Title-->
-<title>Best Newspaper Advertising in Chennai | Baleen Media</title>
+<title>Times of India Advertisement Rates 2025 | Book TOI Ads Online </title>
 	<!-- <-----fontAwesome----------->
 <script src="https://kit.fontawesome.com/61526c3cb9.js" crossorigin="anonymous"></script>
   
