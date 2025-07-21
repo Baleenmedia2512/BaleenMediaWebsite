@@ -10,6 +10,51 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Increase brand visibility and reach a wide audience with effective newspaper advertising in Chennai. Partner with the best newspaper ad agency in Chennai to showcase your brand in leading newspapers across Tamil Nadu.">
 <meta name="author" content="Baleen Media">
+  <!-- Resource Hints -->
+  <link rel="preload" href="/css/newspaper_blog.min.css" as="style">
+  <link rel="preload" href="/assets/js/jquery.min.js" as="script">
+  
+  <!-- Performance Optimization -->
+  <script>
+    // Enhanced performance monitoring
+    window.addEventListener('load', function() {
+      if (window.performance && window.performance.timing) {
+        setTimeout(function() {
+          try {
+            var timing = window.performance.timing;
+            var loadTime = timing.loadEventEnd - timing.navigationStart;
+            var dcl = timing.domContentLoadedEventEnd - timing.navigationStart;
+            
+            // Log detailed performance metrics
+            console.log('Page load time:', loadTime + 'ms');
+            console.log('DOMContentLoaded time:', dcl + 'ms');
+            
+            if (loadTime > 5000) {
+              console.warn('Page load performance warning:', loadTime + 'ms');
+              // Send to analytics if available
+              if (typeof gtag === 'function') {
+                gtag('event', 'performance_warning', {
+                  'event_category': 'Performance',
+                  'event_label': 'Slow page load',
+                  'value': loadTime
+                });
+              }
+            }
+          } catch (error) {
+            console.error('Performance monitoring error:', error);
+          }
+        }, 0);
+      }
+    });
+
+    // Add resource loading error handling
+    window.addEventListener('error', function(e) {
+      if (e.target.tagName === 'LINK' || e.target.tagName === 'SCRIPT') {
+        console.error('Resource loading error:', e.target.src || e.target.href);
+      }
+    }, true);
+  </script>
+
   <!-- Google Tag Manager -->
   <script>
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -19,6 +64,11 @@
     })(window,document,'script','dataLayer','GTM-P7F32DSR');
   </script>
   <!-- End Google Tag Manager -->
+  
+  <!-- Resource Hints -->
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://maxcdn.bootstrapcdn.com">
 <!-- Site Title-->
 <title>Best Newspaper Advertising in Chennai | Baleen Media</title>
 	<!-- <-----fontAwesome----------->
@@ -33,6 +83,8 @@
     "@type": "Organization",
     "name": "Baleen Media",
     "url": "https://baleenmedia.com/newspaper-advertising.php",
+    "additionalType": "NewspaperAdvertisingService",
+    "description": "Premier newspaper advertising service provider specializing in Times of India, Daily Thanthi, and other leading newspapers in Chennai",
     "logo": "https://www.baleenmedia.com/assets/images/thumbnail.png", // Replace with actual logo URL
     "sameAs": [
       "https://www.facebook.com/baleenmedia",
@@ -76,31 +128,49 @@
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/images/thumbnail.png" type="image/x-icon">
     <link rel="icon" href="assets/images/thumbnail.png" type="image/x-icon">
-    <!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloria+Hallelujah&family=Raleway:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <!-- Plugins -->
-    <link href="assets/css/plugin.css" rel="stylesheet">
-    <!-- Style CSS -->
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="assets/css/style.css" as="style">
+    
+    <!-- Core styles -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"> 
     <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Color CSS -->
     <link href="assets/css/colors/color.css" rel="stylesheet">
-	<link href="assets/css/index.css" rel="stylesheet">
+    
+    <!-- Optimized Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Montserrat:wght@400;500;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Deferred CSS -->
+    <link href="assets/css/plugin.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/index.css" rel="stylesheet" media="print" onload="this.media='all'">
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Critical CSS -->
+    <style>
+        /* Minimal styles needed for initial render */
+        #main-preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            z-index: 9999;
+        }
+    </style>
+
+    <!-- Core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    
+    <style>
 		
 /* Professional Navbar Styling */
 .navbar {
@@ -797,25 +867,34 @@ html {
 		display: flex;
 		flex-direction: column;
 	}
-	/* ---------------------------------------------------------------loadings */
-	.main-preloader-inner{
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		
-
+	/* Optimized loading styles */
+	.main-preloader-inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		width: 100%;
 	}
-/* From Uiverse.io by Nawsome */ 
 
-.loader {
-  position: relative;
-  left:90px;
-  width: 250px;
-  height: 100px;
+	.main-preloader {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 255, 255, 0.98);
+		z-index: 9999;
+		transition: opacity 0.5s ease-out;
+	}
 
-}
+	.loader {
+		position: relative;
+		width: 200px;
+		height: 80px;
+		margin: auto;
+	}
 
-.loader__bar {
+	.loader__bar {
   position: absolute;
   bottom: 0;
   width: 10px;
@@ -1210,31 +1289,60 @@ window.onscroll = function() {
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7F32DSR"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-    <div id="main-preloader" class=" main-preloader semi-dark-background">
-	
-        <div class=" main-preloader-inner center">
-		<!---------------------------------uiverse ---------------  -->
-		 
-		<div class="loader">
-  <div class="loader__bar"></div>
-  <div class="loader__bar"></div>
-  <div class="loader__bar"></div>
-  <div class="loader__bar"></div>
-  <div class="loader__bar"></div>
-  <div class="loader__ball"></div>
-</div>
-		<!----------------------------- xxx----------------------------- -->
-            <div class="preloader-bar-outer">
-				
-                <div class="preloader-bar">
-					
-				</div>
+    <div id="main-preloader" class="main-preloader semi-dark-background">
+        <div class="main-preloader-inner center">
+            <div class="loader">
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__ball"></div>
             </div>
         </div>
     </div>
-	
+    
+    <script>
+        // Enhanced preloader functionality with error handling
+        document.addEventListener("DOMContentLoaded", function() {
+            try {
+                const preloader = document.getElementById('main-preloader');
+                if (!preloader) {
+                    console.error('Preloader element not found');
+                    return;
+                }
+
+                // Function to hide preloader
+                const hidePreloader = () => {
+                    preloader.style.opacity = '0';
+                    setTimeout(() => {
+                        preloader.style.display = 'none';
+                    }, 500);
+                };
+
+                // Hide preloader when page is fully loaded
+                window.addEventListener('load', hidePreloader);
+
+                // Fallback to hide preloader if it stays too long
+                setTimeout(() => {
+                    if (preloader.style.display !== 'none') {
+                        console.warn('Preloader fallback triggered');
+                        hidePreloader();
+                    }
+                }, 5000);
+
+                // Handle potential loading errors
+                window.addEventListener('error', (e) => {
+                    console.error('Page load error:', e);
+                    hidePreloader();
+                });
+            } catch (error) {
+                console.error('Preloader script error:', error);
+            }
+        });
+    </script>
    
-	<nav class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 sticky-top " style=" background-color:#F1EAFF;" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light   mb-0 p-2  rounded-0 sticky-top " style=" background-color:#F1EAFF;" id="navbar">
 	<div class="container ">
     <a href="https://www.baleenmedia.com" class="custom-logo-link" rel="home"><img class="img-fluid custom-logo" src="assets/images/bmwebsitelogo.png" alt="ConsultYou"></a>
             <button class="navbar-toggler float-right" type="button"  onclick="menuFunction()"  ><span class="navbar-toggler-icon"></span>

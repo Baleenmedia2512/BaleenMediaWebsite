@@ -2,9 +2,64 @@
 include('include/top_newspaper.php');
 ?>
 <link rel="stylesheet" href="assets/css/style.css"> <!-- Link to a separate CSS file -->
-
 <style>
-    /* =================================================================================banner css rgba(241, 234, 254, 0.7), rgba(224, 206, 253, 0.7)*/ 
+    /* ===================================
+   Slider and Banner Styles
+=================================== */
+
+.We-work-with-bg {
+    background: #fffbf5;
+    padding: 40px 0;
+}
+
+.section-padding {
+    position: relative;
+    overflow: hidden;
+}
+
+.customer-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.slide {
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.slide img {
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .slide img {
+        max-width: 100px;
+    }
+    .section-padding {
+        padding: 10px 0;
+    }
+}
+
+/* Slider Animation */
+.slick-slide {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+/* Banner Background */
     .service-banner{
         background: linear-gradient(-45deg, #AA60C8 , #D69ADE, #EABDE6, #FFDFEF, #D17D98);
         background-size: 400% 400%;
@@ -193,18 +248,41 @@ include('include/top_newspaper.php');
 .We-work-with-bg{
 	background:#fffbf5;
 }
-.section-padding{
-    zoom:40%;
+.section-padding {
+    padding: 20px 0;
 }
-@media (min-width:1000px){
-    .section-padding{
-    zoom:150%;
-}  
+
+.customer-logos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
 }
-@media (min-width: 580px) {
-    .section-padding{
-    zoom:160%;
-}  
+
+.customer-logos .slide {
+    flex: 0 0 auto;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.customer-logos .slide img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .customer-logos .slide {
+        width: 33.333%;
+    }
+}
+
+@media (max-width: 520px) {
+    .customer-logos .slide {
+        width: 50%;
+    }
 }
 .img-cards {
     padding: 20px 20px; 
@@ -827,44 +905,74 @@ html {
 
 <!--=========================================================================================== We work with -->
 <section class="We-work-with-bg">
-	<!-- section title starts -->
-    <h2 style="font-size: 40px; font-family:Montserrat;  padding:30px 0px;">We work with</h2> 
+    <!-- section title starts -->
+    <h2 style="font-size: 40px; font-family:Montserrat; padding:30px 0px;">We work with</h2> 
     <!-- /.section title --> 
-	
-	<section class="section-padding" style="padding: 20px; ">
-		<div class="container">		  
-		   <section class="customer-logos slider">
-			  <div class="slide"><img src="assets/images/vendor/newspaper/1.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/2.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/3.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/4.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/5.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/6.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/7.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/8.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/9.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/10.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/11.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/12.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/13.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/14.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/newspaper/15.jpg"></div>
-			  
-		   </section>		
-		</div>
+    
+    <!-- Newspaper Partners Slider -->
+    <section class="section-padding" style="padding: 20px;">
+        <div class="container">          
+            <div class="customer-logos slider">
+                <div class="slide"><img src="assets/images/vendor/newspaper/1.jpg" alt="Newspaper Partner 1" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/2.jpg" alt="Newspaper Partner 2" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/3.jpg" alt="Newspaper Partner 3" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/4.jpg" alt="Newspaper Partner 4" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/5.jpg" alt="Newspaper Partner 5" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/6.jpg" alt="Newspaper Partner 6" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/7.jpg" alt="Newspaper Partner 7" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/8.jpg" alt="Newspaper Partner 8" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/9.jpg" alt="Newspaper Partner 9" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/10.jpg" alt="Newspaper Partner 10" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/11.jpg" alt="Newspaper Partner 11" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/12.jpg" alt="Newspaper Partner 12" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/13.jpg" alt="Newspaper Partner 13" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/14.jpg" alt="Newspaper Partner 14" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/newspaper/15.jpg" alt="Newspaper Partner 15" loading="lazy"></div>
+            </section>        
+        </div>
     </section>
-	
-	<section class="section-padding" style="padding: 20px; ">
-		<div class="container">		  
-		   <section class="customer-logos slider">
-			  <div class="slide"><img src="assets/images/vendor/magazine/1.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/magazine/2.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/magazine/3.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/magazine/4.jpg"></div>
-			  <div class="slide"><img src="assets/images/vendor/magazine/5.jpg"></div>			  
-		   </section>		
-		</div>
+    
+    <!-- Magazine Partners Slider -->
+    <section class="section-padding" style="padding: 20px;">
+        <div class="container">          
+            <section class="customer-logos slider" style="opacity: 1;">
+                <div class="slide"><img src="assets/images/vendor/magazine/1.jpg" alt="Magazine Partner 1" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/magazine/2.jpg" alt="Magazine Partner 2" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/magazine/3.jpg" alt="Magazine Partner 3" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/magazine/4.jpg" alt="Magazine Partner 4" loading="lazy"></div>
+                <div class="slide"><img src="assets/images/vendor/magazine/5.jpg" alt="Magazine Partner 5" loading="lazy"></div>
+            </section>        
+        </div>
     </section>
+
+    <script>
+        $(document).ready(function(){
+            // Wait for a short time to ensure all resources are loaded
+            setTimeout(function() {
+                // Initialize slick slider
+                $('.customer-logos').not('.slick-initialized').slick({
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    arrows: false,
+                    dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    }, {
+                        breakpoint: 520,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }]
+                });
+            }, 100);
+        });
+    </script>
     <section class="service-bg" id="specific-newspaper-booking">
     <div class="container">
         <h2 style="text-align: center; margin-bottom: 30px; margin-top: 30px;">Book Ads in Top Newspapers: Times of India, Daily Thanthi, Makkal Kural, Trinity Mirror</h2>
@@ -873,7 +981,8 @@ html {
             <div class="col-md-6" style="padding-right: 20px;">
                 <h3>Times of India Ad Booking Made Easy</h3>
                 <p>Looking to book ad in Times of India? Our platform simplifies the entire process for Times of India newspaper advertising. Whether you need to publish a matrimonial, property, recruitment, or public notice ad, we offer seamless Times of India advertisement booking. You can quickly find competitive Times of India ad rates for various categories and editions. Our intuitive interface allows you to complete your Times of India ad booking online from the comfort of your home or office. Don't waste time with complicated procedures; let us help you post ad in Times of India efficiently and effectively.</p>
-                <a href="" class="btn primary-btn" style="margin-top: 15px;">View Times of India Ad Rates & Book Online</a>
+                <a href="times-of-india-advertising-rates.php" class="btn primary-btn" style="margin-top: 15px;">Check Times of India Ad Rates & Book Now</a>
+                
             </div>
             <div class="col-md-6">
                 <img src="assets/images/times-of-india-newspaper.png" alt="Times of India Ad Booking Online" class="img-fluid" loading="lazy" style="max-width: 80%; border-radius: 8px;">
