@@ -5,12 +5,12 @@ include('include/top_bus.php');
 <style>
     /* =================================================================================banner css rgba(241, 234, 254, 0.7), rgba(224, 206, 253, 0.7)*/ 
     .service-banner{
-        background: linear-gradient(-45deg, #AA60C8 , #D69ADE, #EABDE6, #FFDFEF, #D17D98);//#8F87F1, #C68EFD, #E9A5F1, #FED2E2);//#F6B2E1, #F1EAFEB3, #E0CEFDB3, #F7E1FF, #EFD9F9, #DCC8F5, #C6B3F0, #58126A);
+        background: linear-gradient(-45deg, #AA60C8 , #D69ADE, #EABDE6, #FFDFEF, #D17D98);
         background-size: 400% 400%;
-        animation: gradient 15s ease infinite;
+        animation: gradient 10s infinite;
         background-position: center;
         padding-top:30px;
-        border:0px;
+        border:1px;
         justify-content: space-between;
     }
 
